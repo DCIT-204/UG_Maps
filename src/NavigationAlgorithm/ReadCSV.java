@@ -1,3 +1,4 @@
+package src.NavigationAlgorithm;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -5,7 +6,7 @@ import java.util.Arrays;
 public class ReadCSV {
     public static ArrayList<String[]> readCSV(String file) {
         ArrayList<String[]> csvContents = new ArrayList<String[]>();
-        System.out.println("hello world");
+
         BufferedReader reader = null;
         String line = "";
 
@@ -14,7 +15,7 @@ public class ReadCSV {
             while ((line = reader.readLine()) != null) {
                 csvContents.add(line.split(","));
             }
-            System.out.println("done");
+
         } catch (Exception e) {
             System.out.println("Could not read contents of file");
             e.printStackTrace();

@@ -60,6 +60,16 @@ public class ReadCSV {
         return 0.0;
     }
 
+    public static String getLandmark(ArrayList<String[]> csvContents, String location) {
+        for (String[] row : csvContents) {
+            if (row[1].equalsIgnoreCase(location)) {
+                return row[1]; 
+                
+            }
+        }
+        return "No landmark allocated";
+    }
+
     public static String getType(ArrayList<String[]> csvContents, String location) {
         for (String[] row : csvContents) {
             if (row[1].equalsIgnoreCase(location)) {

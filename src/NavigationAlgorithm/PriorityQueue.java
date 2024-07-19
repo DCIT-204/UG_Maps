@@ -11,11 +11,14 @@ public class PriorityQueue {
             int id) {
         Node newNode = new Node(name, description, latitude, longitude, distance, parent, id);
 
+        // the new node becomes the head if queue is empty or it has a distance lesser
+        // than the current head
         if (head == null || head.distance > distance) {
             newNode.nextNode = head;
             head = newNode;
         } else {
-
+            // the queue is traversed to find the position of the new node based on its
+            // priority
             Node currentNode = head;
             while (currentNode.nextNode != null && currentNode.nextNode.distance <= distance) {
                 currentNode = currentNode.nextNode;

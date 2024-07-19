@@ -5,7 +5,6 @@ public class Node {
   public Double latitude;
   public Double longitude;
   public Node parent;
-  public Node nextNode;
   public float distance;
   public int id;
 
@@ -15,7 +14,6 @@ public class Node {
     this.latitude = latitude;
     this.longitude = longitude;
     this.parent = parent;
-    this.nextNode = null;
     this.distance = distance;
     this.id = id;
   }

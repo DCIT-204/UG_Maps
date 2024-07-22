@@ -3,6 +3,7 @@ package src.NavigationAlgorithm;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class ReadCSV {
     public static ArrayList<String[]> readCSV(String file) {
@@ -51,9 +52,29 @@ public class ReadCSV {
         return 0.0;
     }
 
+    public static Double getLongitude(ArrayList<String[]> csvContents, int id) {
+        for (String[] row : csvContents) {
+            if (Objects.equals(row[0], String.valueOf(id))) {
+                return Double.parseDouble(row[3]);
+            }
+        }
+        return 0.0;
+    }
+
+
     public static Double getLatitude(ArrayList<String[]> csvContents, String location) {
         for (String[] row : csvContents) {
             if (row[1].equalsIgnoreCase(location)) {
+                return Double.parseDouble(row[2]);
+            }
+        }
+        return 0.0;
+    }
+
+
+    public static Double getLatitude(ArrayList<String[]> csvContents, int id) {
+        for (String[] row : csvContents) {
+            if (Objects.equals(row[0], String.valueOf(id))) {
                 return Double.parseDouble(row[2]);
             }
         }
@@ -99,5 +120,9 @@ public class ReadCSV {
 
     public static int getID(ArrayList<String[]> csvContents, String name) {
         return getIdByName(csvContents, name);
+    }
+
+    public static int getCSVLength(ArrayList<String[]> csvContents){
+        return csvContents.size();
     }
 }

@@ -24,18 +24,18 @@ ID,Location,Latitude,Longitude,Type
 23,GHANA HOSTELS LTD FLATS PENTAGON,5.6566018,-0.1814073,HALL
 24,Bani Hostel,5.663091,-0.1797826,HALL
 25,Evandy Hostel Legon campus,5.6629969,-0.1817436,HALL
-26,School of Biomedical Allied Health Sciences,-0.2309697,5.5378508,SCHOOL
-27,University Of Ghana Dental School,-0.2318301,5.5378459,SCHOOL
-28,West African Genetic Medicine Centre (WAGMC),-0.1871303,5.6346248,UNIVERSITY CENTRE
-29,College Of Basic And Applied Sciences,-0.186234,5.6501655,COLLEGE
-30,Livestock And Poultry Research Centre - Accra,-0.1056988,5.6756561,UNIVERSITY CENTRE
-31,Forest and Horticultural Crop Research Centre,-0.9037471,6.1438092,UNIVERSITY CENTRE
-32,School of Nuclear and Allied Sciences(SNAS),-0.231651,5.666415,SCHOOL
-33,Department of mathematics,-0.1870489,5.6538568,DEPARTMENT
-34,School Of Veterinary Medicine,-0.1853229,5.6502948,SCHOOL
-35,Institute Of Applied Science & Technology,-0.1886049,5.6530743,UNIVERSITY INSTITUTE
-36,West Africa Centre for Crop Improvement,-0.1867032,5.6491743,UNIVERSITY CENTRE
-37,West African Centre for Cell Biology of Infectious Pathogens (WACCBIP),-0.192188,5.6548705,UNIVERSITY CENTRE
+26,School of Biomedical Allied Health Sciences,5.5378508,-0.2309697,SCHOOL
+27,University Of Ghana Dental School,5.5378459,-0.2318301,SCHOOL
+28,West African Genetic Medicine Centre (WAGMC),5.6346248,-0.1871303,UNIVERSITY CENTRE
+29,College Of Basic And Applied Sciences,5.6501655,-0.186234,COLLEGE
+30,Livestock And Poultry Research Centre - Accra,5.6756561,-0.1056988,UNIVERSITY CENTRE
+31,Forest and Horticultural Crop Research Centre,6.1438092,-0.9037471,UNIVERSITY CENTRE
+32,School of Nuclear and Allied Sciences(SNAS),5.666415,-0.231651,SCHOOL
+33,Department of mathematics,5.6538568,-0.1870489,DEPARTMENT
+34,School Of Veterinary Medicine,5.6502948,-0.1853229,SCHOOL
+35,Institute Of Applied Science & Technology,5.6530743,-0.1886049,UNIVERSITY INSTITUTE
+36,West Africa Centre for Crop Improvement,5.6491743,-0.1867032,UNIVERSITY CENTRE
+37,West African Centre for Cell Biology of Infectious Pathogens (WACCBIP),5.6548705,-0.192188,UNIVERSITY CENTRE
 38,Centre for Climate Change and Sustainability Studies,-5.6566119,5.6566119,UNIVERSITY CENTRE
 39,University of Ghana Registry,5.6501606,-0.1954113,SCHOOL REGISTRY
 40,Great Hall,5.6505784,-0.1961687,GREAT HALL

@@ -1,21 +1,32 @@
+package src.NavigationAlgorithm;
 
-public class Node {
-  public String name;
-  public String description;
-  public Double latitude;
-  public Double longitude;
-  public Node parent;
-  public float distance;
-  public int id;
+//public class Node {
+//  public int id;
+//  public Node parent;
+//  public double distance;
+//
+//
+//  public Node( int id, double distance, Node parent) {
+//    this.parent = parent;
+//    this.distance = distance;
+//    this.id = id;
+//  }
+//
+//}
 
-  public Node(String name, String description, Double latitude, Double longitude, float distance, Node parent, int id) {
-    this.name = name;
-    this.description = description;
-    this.latitude = latitude;
-    this.longitude = longitude;
-    this.parent = parent;
-    this.distance = distance;
+class Node implements Comparable<Node> {
+  int id;
+  double distance;
+  Node parent;
+
+  public Node(int id, double distance, Node parent) {
     this.id = id;
+    this.distance = distance;
+    this.parent = parent;
   }
 
+  @Override
+  public int compareTo(Node other) {
+    return Double.compare(this.distance, other.distance);
+  }
 }

@@ -11,7 +11,7 @@ class GoogleMapsClient:
 
     def __init__(self) -> None:
         """Initialize the Google Maps client."""
-        self.client = googlemaps.Client(key="AIzaSyAZ70HOV9n34WURzQ9MSF-5R-FRH4WLNcs")
+        self.client = googlemaps.Client(key = "INSERT_TOP_SECRET_GOOGLE_MAPS_API_KEY")
 
     def geocode_location(self, location: str) -> tuple[float, float]:
         """Geocode the provided location"""

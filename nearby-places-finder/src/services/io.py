@@ -13,7 +13,7 @@ class IOService:
                 writer = csv.writer(fa1)
                 writer.writerow(["Index", "Name", "Latitude", "Longitude", "Address"])  # Header row for CSV
                 for idx, school in enumerate(schools, 1):
-                    writer.writerow([idx, school["Name"], school["Latitude"], school["Longitude"], school["Address"]])
+                    writer.writerow([idx, school["Name"].replace(',', ' '), school["Latitude"], school["Longitude"], school["Address"]])
         else:
             with open(file_path, "r", encoding = "utf-8") as fr:
                 reader = csv.reader(fr)

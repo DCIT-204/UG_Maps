@@ -1,120 +1,545 @@
-ID,Location,Latitude,Longitude,Type
-1,University of Ghana,5.650562,-0.1962244,HALL
-2,Akuafo Hall,5.6504233,-0.1857034,HALL
-3,Volta Hall,5.651687,-0.189828,HALL
-4,Commonwealth Hall,5.6507786,-0.1925578,HALL
-5,Mensah Sarbah Hall,5.6454233,-0.1861566,HALL
-6,LEGON HALL ANNEX B,5.6469649,-0.1884643,HALL
-7,Legon Hall Annex C (GRADUATE HOSTEL),5.6473666,-0.1889045,HALL
-8,Legon Hall Annex A,5.6479502,-0.1884088,HALL
-9,Mensah Sarbah Annex A Block,5.6458409,-0.1851638,HALL
-10,Mensah Sarbah Annex C,5.6453798,-0.1853728,HALL
-11,Mensah Sarbah Annex D,5.645478,-0.1857564,HALL
-12,Akuafo Hall Annex A,5.6479223,-0.1855917,HALL
-13,Akuafo Hall Annex B,5.6469289,-0.1856753,HALL
-14,Akuafo Hall Annex C,5.6474633,-0.185305,HALL
-15,Akuafo Hall Annex D,5.6472018,-0.1858704,HALL
-16,Dr. Hilla Limann Hall,5.6373317,-0.1848835,HALL
-17,Jean Nelson Aka Hall,5.6352521,-0.1884651,HALL
-18,Alexander Kwapong Hall,5.637268,-0.1861621,HALL
-19,Elizabeth Frances Sey Hall,5.6359611,-0.1875964,HALL
-20,Jubilee Hall,5.6403435,-0.1862323,HALL
-21,International Student Hostel- ISH,5.6400274,-0.1851988,HALL
-22,Vikings Hostel,5.6443691,-0.185427,HALL
-23,GHANA HOSTELS LTD FLATS PENTAGON,5.6566018,-0.1814073,HALL
-24,Bani Hostel,5.663091,-0.1797826,HALL
-25,Evandy Hostel Legon campus,5.6629969,-0.1817436,HALL
-26,School of Biomedical Allied Health Sciences,-0.2309697,5.5378508,SCHOOL
-27,University Of Ghana Dental School,-0.2318301,5.5378459,SCHOOL
-28,West African Genetic Medicine Centre (WAGMC),-0.1871303,5.6346248,UNIVERSITY CENTRE
-29,College Of Basic And Applied Sciences,-0.186234,5.6501655,COLLEGE
-30,Livestock And Poultry Research Centre - Accra,-0.1056988,5.6756561,UNIVERSITY CENTRE
-31,Forest and Horticultural Crop Research Centre,-0.9037471,6.1438092,UNIVERSITY CENTRE
-32,School of Nuclear and Allied Sciences(SNAS),-0.231651,5.666415,SCHOOL
-33,Department of mathematics,-0.1870489,5.6538568,DEPARTMENT
-34,School Of Veterinary Medicine,-0.1853229,5.6502948,SCHOOL
-35,Institute Of Applied Science & Technology,-0.1886049,5.6530743,UNIVERSITY INSTITUTE
-36,West Africa Centre for Crop Improvement,-0.1867032,5.6491743,UNIVERSITY CENTRE
-37,West African Centre for Cell Biology of Infectious Pathogens (WACCBIP),-0.192188,5.6548705,UNIVERSITY CENTRE
-38,Centre for Climate Change and Sustainability Studies,-5.6566119,5.6566119,UNIVERSITY CENTRE
-39,University of Ghana Registry,5.6501606,-0.1954113,SCHOOL REGISTRY
-40,Great Hall,5.6505784,-0.1961687,GREAT HALL
-41,Public Affairs Directorate,5.6510429,-0.195402,DIRECTORATE
-42,Computer Science Department,5.6544997,-0.1837907,DEPARTMENT
-43,Students Financial Aid Office and Students with Special Needs Office,5.6479586,-0.1836465,CENTRE
-44,Department of English,5.6503485,-0.1896902,DEPARTMENT
-45,International Programmes Office,5.6535742,-0.1820496,INSTITUTE
-46,Geographic Department,5.6497851,-0.195635,DEPARTMENT
-47,UG-CSPS School Of Social Sciences,5.6549228,-0.1876022,SCHOOL
-48,French Department,5.651005,-0.188739,DEPARTMENT
-49,Department Of Physics,5.6514692,-0.1860685,DEPARTMENT
-50,Department Of Political Science,5.6546214,-0.1864182,DEPARTMENT
-51,DEPARTMENT OF EDUCATIONAL STUDIES AND LEADERSHIP (DESL),5.6528259,-0.1812233,DEPARTMENT
-52,Department Of Economics,5.6510632,-0.1874492,DEPARTMENT
-53,University of Ghana School of Law,5.6542104,-0.1832938,SCHOOL
-54,Department of Adult Education and Human Resource Studies,5.6515746,-0.181138,DEPARTMENT
-55,Maison Francais,5.6492074,-0.1876893,INSTITUTE
-56,Bank Of Ghana Auditorium,5.6515081,-0.1883134,AUDITORIUM
-57,Legon Today,5.6494906,-0.180325,
-58,Legon Centre for International Affairs and Diplomacy,5.6521876,-0.1839241,UNIVERSITY CENTRE
-59,Language Center,5.6498867,-0.1894877,UNIVERSITY CENTRE
-60,University of Ghana School of Arts,5.6530512,-0.1812264,SCHOOL
-61,School of Pharmacy,5.6539749,-0.1892706,SCHOOL
-62,Department of Geography and Resource Development,5.6509721,-0.1832581,DEPARTMENT
-63,University of Ghana Guest Centre,5.6449207,-0.1896858,GUEST HOUSE
-64,School of Social Sciences,5.6550528,-0.1872878,SCHOOL
-65,University of Ghana Computing Systems(UGCS),5.6522021,-0.1881066,UGCS
-66,University of Ghana Business School,5.6585625,-0.1775625,SCHOOL
-67,Department Of Psychology,5.6551242,-0.1867135,DEPARTMENT
-68,Department Of Economics Conference Facility (Bank of Ghana Conference Facility),5.6515313,-0.1883246,DEPARTMENT
-69,University Basic School,5.6427044,-0.1879888,BASIC SCHOOL
-70,Department Of Family And Consumer Science,5.650273,-0.1840802,
-71,Legon Hall,5.6499527,-0.1884151,
-72,University Of Ghana Sports Directorate,5.6397227,-0.1814595,
-73,Confucius institute - University of Ghana,5.6487109,-0.1895396,
-74,Ghana Post - Legon,5.6508177,-0.1878063,
-75,University Hospital - Legon,5.6510676,-0.1779637,
-76,Department of Soil Science,5.6503018,-0.184794,
-77,Department of Music,5.6492089,-0.1807597,
-78,Chemistry Department,5.6527006,-0.1852812,
-79,Department of Earth Science,5.6509364,-0.1841512,
-80,Department Of Animal Biology And Conservation Science,5.6534118,-0.1875349,
-81,Department of Nutrition and Food Science,5.6537598,-0.1888299,
-82,School of Engineering Sciences,5.6552787,-0.183031,
-83,School of Languages,5.6490639,-0.1896467,
-84,School of Public Health,5.6367874,-0.1826353,
-85,Department of Plant and Environmental Biology,5.6538172,-0.1862323,
-86,College of Humanities,5.6537754,-0.1820576,
-87,University of Ghana Pan-African Doctoral Academy (PADA) Building,5.6533077,-0.19128,
-88,School of Agriculture,5.6501636,-0.1837798,
-89,Kwame Nkrumah Complex (Institute of African Studies Annex),5.6510546,-0.181888,
-90,Department Of Philosophy and Classics,5.6509936,-0.1881891,
-91,Department of Agriculture Economics and Agribusiness,5.6497242,-0.1835599,
-92,Maison Française Legon,5.6492965,-0.1876909,
-93,Accra City Campus - University of Ghana,5.5569585,-0.2078176,
-94,Department for the Study of Religions,5.650944,-0.1883512,
-95,Department of Biochemistry- Cell and Molecular Biological,5.6547445,-0.1895439,
-96,Economic Policy Management Programme Office,5.6512672,-0.1880942,
-97,Law Auditorium- Faculty of Law- University of Ghana,5.6539027,-0.1829241,
-98,Department of Marine And Fisheries Sciences,5.6537021,-0.1884822,
-99,School of Graduate Studies,5.6532353,-0.1907917,
-100,Department Of Crop Science,5.6501389,-0.1848029,
-101,School of Nursing and Midwifery,5.6535398,-0.1902256,
-102,School of Education and Leadership new block,5.6506394,-0.1870506,
-103,Department Of Animal Science,5.6499535,-0.1831085,
-104,School of Information and Communication Studies,5.6517435,-0.1813064,
-105,Regional Institute for Population Studies (RIPS),5.6545341,-0.1840934,
-106,Department of mathematics,5.6538568,-0.184474,
-107,Colleges of Education,5.6531442,-0.1820301,
-108,Department of Statistics,5.6538662,-0.1838368,
-109,Legon,5.6506394,-0.1870506,
-110,College Of Basic And Applied Sciences,5.6501655,-0.1836591,
-111,University of Ghana Teaching Hospital,5.6523215,-0.1860829,
-112,College Of Islamic Studies-  Accra Ghana. Affiliated with International University Of Africa,5.6783571,-0.1647028,
-113,West African Genetic Medicine Centre (WAGMC),5.6346248,-0.1845554,
-114,Biotechnology Laboratory,5.6489592,-0.1837099,
-115,University of Ghana Gym Center,5.6397371,-0.1814809,
-116,INSTITUTE OF LOCAL GOVERNMENT STUDIES ACCRA MADINA,5.6630415,-0.1536188,
-117,INSTITUTE OF AFRICAN STUDIES,5.6493191,-0.1811087,
-118,School of Performing Arts,5.6492089,-0.1807597,
-119,University Of Ghana Medical Centre,5.6323346,-0.185922,
+Index,Name,Latitude,Longitude,Address
+1,Ghana Revenue Authority  Legon Medium Taxpayer Office (MTO),5.642472400000001,-0.1779947,"Legon East Road, Accra"
+2,DECARINDA ENTERPRISE,5.668640199999999,-0.1882667,"G 51, Agbogba - Ashongman Road, ESATE"
+3,Kia-Start Up Consult - Ghana,5.6664328,-0.1777756,"Atomic Junction Roundabout, Madina"
+4,Recreational Quandrangle,5.6529336,-0.1871377,"MR37+54H, J.K.M. Hodasi Road, Accra"
+5,PH Art Gallery,5.651962700000001,-0.1819567,"MR29+Q6M, Osu Road, Accra"
+6,Standard Chartered - Legon Branch ATM,5.651373200000001,-0.1877666,"W.E.B. Dubois Road, Accra"
+7,HFC Bank - Legon Branch ATM (University of Ghana),5.6432692,-0.1850156,"Noguchi Road, UG - Credit Union Building - University of Ghana, Legon, Accra"
+8,CalBank,5.6507756,-0.1888775,"Doutor J. B. Danquah Avenue, Accra"
+9,Zenith Bank - Legon Botanical Gardens ATM,5.6545409,-0.1859038,"Botanical Gardens Road, Accra"
+10,Standard Chartered Bank ATM,5.6508994,-0.186466,"MR27+9C3, Doutor J. B. Danquah Avenue, Accra"
+11,GCB Bank ATM,5.6509345,-0.1876015,"MR26+9XC, W.E.B. Dubois Road, Accra"
+12,Republic Bank ATM,5.6492928,-0.1870143,"JRX7+P59, Accra"
+13,Ecobank ATM,5.652016199999999,-0.1883856,"W.E.B. Dubois Road, Accra"
+14,Fidelity Bank - Offsite ATM  Legon Campus,5.6512692,-0.1889411,"Volta Car Park, Doctor, Doutor J. B. Danquah Avenue, Accra"
+15,Zenith Bank ATM,5.6517231,-0.1890479,"MR26+M9P, Volta Road, Accra"
+16,GCB Bank ATM - Legon,5.651951199999999,-0.1796571,"Legon East Road, Accra"
+17,Stanbic Bank ATM - UG Legon,5.6426287,-0.1857233,"Banking Square, University of Ghana, Legon, Accra"
+18,ADB - MADINA ATM,5.6435111,-0.1785453,"East Legon Road, Near Hollywood Complex, Accra"
+19,Barclays Bank ATM (University of Ghana),5.650927900000001,-0.1863599,"MR27+9FC, Cruise O. Brien Road, Accra"
+20,GCB Bank ATM Nsawam PWD Offsite,5.650639399999999,-0.1870506,Accra
+21,Absa | Atm | Legon (campus) Branch,5.6509,-0.186328,"University Of Ghana Campus, Accra"
+22,Barclays ATM,5.6519352,-0.1890204,"MR26+Q9H, Volta Road, Accra"
+23,GT BANK ATM,5.650775899999999,-0.1889311,"MR26+8C8, Doutor J. B. Danquah Avenue, Accra"
+24,Access Bank Visa ATM,5.6471601,-0.1874448,"JRW7+V27, Accra"
+25,ADB Visa ATM,5.6471361,-0.1865436,"JRW7+V94, Accra"
+26,Cuppycake House,5.6411701,-0.1743096,"La-Bawaleshi Road, Accra"
+27,Cake City Center Point,5.6667129,-0.1798358,"Atomic Haatso Road, Accra"
+28,Adwoaz Donut,5.650639399999999,-0.1870506,"Legon Campus, Accra"
+29,rehobot snacks bar,5.6582124,-0.1813455,"Blk C Wing B, Annie Jiagge Road, Accra"
+30,Mancho,5.6429905,-0.1861211,"JRV7+5HR, Jubilee Drive, Accra"
+31,Taffy Cakes And More,5.641664,-0.1843234,"Mbabane Avenue, Accra"
+32,Adepa Bakery,5.653206099999999,-0.1762038,"Tewu roundabout, Accra"
+33,GANDY BAKES,5.6533636,-0.1748488,Accra
+34,Cakenics,5.6383824,-0.1854627,Accra
+35,Jaesm Cakes,5.641345299999999,-0.1735302,Accra
+36,SERWAA BAKES,5.6688579,-0.1903175,"Akoto-Bamfo street, Accra"
+37,Republic Bank - Legon Branch (University of Ghana),5.6432658,-0.1850153,"Noguchi Road, UG - Credit Union Building - University of Ghana, Legon, Accra"
+38,EcoBank,5.6565498,-0.1814821,"Annie Jiagge Road, Accra"
+39,Standard Chartered Bank Legon,5.6509168,-0.1865893,"Legon Campus, Doutor J. B. Danquah Ave Near Kingdom Bookshop, Accra"
+40,CalBank,5.6425693,-0.1858115,"Legon, Jubilee Drive, Legon"
+41,Consolidated Bank,5.642540400000001,-0.1858898,"JRV7+2J9, Accra"
+42,Ecobank Legon Main Branch,5.642598399999999,-0.184657,"JRV8+24Q, Accra"
+43,Ecobank Okponglo Branch,5.6412095,-0.1750695,"La-Bawaleshi Road, Accra"
+44,Standard Chatered Bank (University of Ghana Branch),5.650803,-0.1865307,"MR27+89H, Accra"
+45,Barclays Bank (University of Ghana Branch),5.650909,-0.186347,"MR27+9F6, Cruise O. Brien Road, Accra"
+46,Absa | Branch | Legon Campus,5.6509,-0.186328,"University Of Ghana Campus, Accra"
+47,GTBank ATM - Legon Campus,5.6517147,-0.1890506,"University of Ghana, Volta Hall Car Park, Accra"
+48,Cal Bank,5.6481818,-0.181888,"JRX9+76H, La Road, Accra"
+49,GCB Bank - Legon Branch,5.652058,-0.1795342,"Legon East Road, Accra"
+50,Absa | Branch | Legon Main,5.654039000000001,-0.179091,"Opposite Legon ECG, Accra"
+51,HFC Bank,5.6432666,-0.1850156,"JRV7+8X5, Accra"
+52,Prudential Bank Ltd. - University of Ghana Branch,5.6429174,-0.1858902,"JRV7+5J9, Accra"
+53,Access Bank,5.64294,-0.1856987,"JRV7+5PF, Noguchie Link, Accra"
+54,ADB - Legon Campus Branch,5.6431166,-0.1848166,"Near Republic Bank, Accra"
+55,Stanbic Bank - Legon Branch,5.642630799999999,-0.1857272,"University of Ghana, Legon Banking Square, Accra"
+56,SGL Royal Kapita Okponglo,5.6375326,-0.1769003,"JRQF+269, Accra"
+57,Candy's Spot,5.6668314,-0.1865006,"Haatso-Atomic Road, Accra"
+58,Iron City Pub,5.650687500000001,-0.1870625,"MR27+754, Accra"
+59,Tayiba Bar and Grill,5.650401799999999,-0.1867663,Adjacent Legon Botanical Garden at Agbogba Junction
+60,Legon Hall Lectures Bar,5.6504247,-0.1886189,"MR26+5H6, Doutor J. B. Danquah Avenue, Accra"
+61,Loggia Drinking Spot,5.645357000000001,-0.1875083,"JRW6+4XX, Mensah Sarbah Crescent, Accra"
+62,D4 pub,5.648136399999999,-0.1810069,"JRX9+7H5, La Road, Accra"
+63,Linda's Pub,5.6479099,-0.1806927,"JRX9+5P7, Accra"
+64,Tipsy Alley Gh,5.642527900000002,-0.186214,"University of Ghana Stadium, Jubilee Drive, Accra"
+65,OWNERS FOOD COURT,5.65157,-0.1756774,"P. O. BOX 2976 Kwabenya, Accra"
+66,UG Bar and Grill,5.639318,-0.1824144,"JRQ9+P2G, UNIVERSITY SWIMING POOLSIDE, Accra"
+67,Afua s Place,5.641696500000001,-0.1766146,"JRRF+M95, Accra"
+68,Nichole's Pub,5.651459,-0.172257,"MR2H+H3Q, Accra"
+69,Jenny's Gardens,5.6512796,-0.1719196,"Hospital Road, Accra"
+70,Tayiba Bar & Grill,5.6670147,-0.1883395,"Haatso-Atomic Road, Accra"
+71,The Library Pub,5.640377300000001,-0.1762109,"JRRF+5G3, Djibouti Road, Accra"
+72,Tills Yogurt,5.667824299999999,-0.1876873,"1 Agbogba - Ashongman Road, Accra"
+73,Liquor & Wine,5.667023299999999,-0.1804989,"Haatso-Atomic Road, Accra"
+74,Sugar's Lounge,5.6671931,-0.1939365,"276 Haatso-Atomic Road, Accra"
+75,Inferno Gh,5.668703299999999,-0.1856261,"20 Kofi Annan Avenue, Accra"
+76,2020 Bay  Bar & Bistro,5.646306699999999,-0.1706659,"Trinity Avenue, Accra"
+77,CONNIE'S BEAUTY SALON GHANA NEW LEGON BL,5.650639399999999,-0.1870506,"New Legon Rosa Rosa Greatest, Accra"
+78,Beautylounge,5.650639399999999,-0.1870506,"D/907, Accra"
+79,Lorikels Beauty Studio,5.651640799999999,-0.189889,"Volta Hall, Accra"
+80,Swanky Nails and Beauty Salon,5.649601800000001,-0.1889785,"JRX6+RCR, Barimah Road, Accra"
+81,Unique Salon and Locks Center,5.648104600000001,-0.1810171,"Bush Canteen, Legon East Road, Accra"
+82,Ultimate Glamour,5.657344399999999,-0.1822227,"Legon, Accra"
+83,Mejani Beauty Lounge,5.6537812,-0.1786967,"J.J Rawlings Avenue, Accra"
+84,Nailcanta,5.6585992,-0.1810274,"Block C Wing D, Annie Jiagge Road, Accra"
+85,Legacy Beauty Salon,5.6631847,-0.1818022,"MR79+77G, Accra"
+86,Reenie’s Femiluxe,5.6413864,-0.1779594,"Box 23, Accra"
+87,Lash Dollz,5.6373164,-0.1861728,"Alexander Kwapong Hall, University of Ghana"
+88,Braids & Beyond - Okponglo Branch,5.640801799999999,-0.1770573,"JRRF+85G, La-Bawaleshi Road, Accra"
+89,EsthetiQ beauty studio,5.636362099999999,-0.1854477,"Alexander kwapong hall Dr Dr hilla lihman hall, Accra"
+90,Bloom nail studio,5.666440099999999,-0.1821277,"MR89+H4H, Accra"
+91,AJ HAIRANDMAKEOVERS_GH,5.6411985,-0.1751003,"La-Bawaleshi Road, Accra"
+92,Millys ArtisticNails & Parlor,5.641200100000001,-0.175063,"JRRF+FX, La-Bawaleshi Road, Accra"
+93,Jomensbeautyparlor,5.6410333,-0.1750862,"JRRF+CX7, Accra"
+94,Rock of Grace Beauty Palour,5.6653027,-0.1778398,"MR8C+4VF, Accra"
+95,Bomb Hairs & Beauty Salon,5.667687,-0.1911343,"MR95+3GH, Haatso"
+96,Auntie Alice Hair Centre,5.641229200000001,-0.1741936000000001,"Almond Street, Accra"
+97,University Of Ghana Bookshop,5.6509915,-0.1867112,Accra
+98,Partners Bookshop Annex,5.649126,-0.1884507,"JRX6+MJ3, Accra"
+99,University of Ghana Bookshop Annex,5.651969699999999,-0.1819988,"MR29+Q6J, Annie Jiagge Road, Accra"
+100,Sando Bookshop  Accra Branch,5.6481014,-0.1810563,"University of Ghana, Accra"
+101,EPP Book Global,5.6534111,-0.1790218,"MR3C+999 Legon Boundary, Accra"
+102,Inquiring Minds Bookstore,5.642421999999999,-0.18587,"University of Ghana Stadium, Jubilee Drive, Accra"
+103,Kingdom Books and Stationery Limited - Atomic,5.667187699999999,-0.1791404,"MR8C+R6X, Accra"
+104,Legon Trotro Station,5.6495469,-0.1792049,"Legon East Road, Accra"
+105,Okponglo Bus Stop,5.641684100000001,-0.178116,Accra
+106,Okponglo Bus Stop,5.6397935,-0.17815,"Legon East Road, Accra"
+107,Cake City Center Point,5.6667129,-0.1798358,"Atomic Haatso Road, Accra"
+108,Akuafo Coffe Shop,5.649951400000001,-0.1852412,"JRX7+XWJ, Noguchie Link, Accra"
+109,Rowie's Breakfast,5.657447200000001,-0.1820115,Accra
+110,Hareery Coffee Shop,5.653740399999999,-0.1790946,"MR3C+F9R, Legon Boundary, Accra"
+111,Chapters,5.636331200000001,-0.1879289,"JRP6+GRP, Accra"
+112,Second Cup Coffee,5.652007899999999,-0.1714829,"Alied Filling Station, Tema Total Community 10, Hospital Road, Accra"
+113,Like Home Local & Continental Dishes,5.640953100000001,-0.1750172,"JRRF+9XQ, La-Bawaleshi Road, Accra"
+114,Cocoa Beach,5.639533900000001,-0.1760912,"JRQF+RH7, Accra"
+115,Cafe Jackie Dee / Jackie Dee Salon,5.6409978,-0.1742117,"U1013, GA -379-0154, La-Bawaleshi Road, Accra"
+116,vida e caffè - Haatso,5.6670169,-0.1800171,"MR8C+R6X, Accra"
+117,Pinkberry Haatso - Atomic,5.667130800000001,-0.1792283,"Haatso-Atomic Road, Accra"
+118,UberDrivers Rest Place (north Legon),5.6691479,-0.185525,Avenue C
+119,Koko place,5.669209899999999,-0.1882036,"GM 078, 4631 Agbogba - Ashongman Road"
+120,Second Cup Atomic Junction,5.6675048,-0.1783908,"MR9C+2JM, Kwabenya Bus Station, Haatso-Atomic Rd, Accra Atlantic Mall Accra, Atomic"
+121,J motor,5.6363559,-0.1914484,"Kb, Accra"
+122,Orkman Motors,5.6675007,-0.1914125,"Haatso-Atomic Road, Accra"
+123,Jenede greenleaf investment,5.6675379,-0.1819186,"North Legon haatso, road"
+124,Kwadwo Appiagyei,5.650639399999999,-0.1870506,"Shell Filling Station, Accra"
+125,Fayaconsults,5.644785000000001,-0.185169,"Block B, Mensah Sarbah Crescent, Accra"
+126,Runs and Errands,5.655450999999999,-0.1805842,"SHELL PETROL STATION, Accra - Aburi Road, Accra"
+127,Thriftee Car Rentals  Ghana,5.660312499999999,-0.1774375,"MR6F+423, N4, ACCRA, Madina"
+128,Switch Car Rentals,5.6397096,-0.1773567,"5 1st Freetown Link, Accra"
+129,Addaily Car Rentals,5.6399668,-0.1754952,"JRQF+XRJ, Ouagadougou Avenue, Accra"
+130,Vensa Travel Services,5.669005500000001,-0.1866342,"10 Kofi Annan Avenue, Accra"
+131,Zion car Rentals,5.648971899999999,-0.1696943,"Trinity Avenue, Accra"
+132,Rentnzoom,5.6534375,-0.1694375,"MR3J+96J, Accra"
+133,Premium Rides Ghana LTD,5.648946700000001,-0.1692107,"Trinity Avenue, Accra"
+134,AJO Autoparts & Hardware,5.6479352,-0.1883338,"Annex A, Mensah Sarbah, Accra"
+135,Mirandus Enterprise,5.6511043,-0.1811844,"Osu Road, Accra"
+136,Dagtech Auto Engineering Services,5.6574291,-0.1800252,"N4, Accra"
+137,Toyota Ghana Company Limited  Legon Branch,5.665143200000001,-0.1942828,"7 Jasmine Street, Accra"
+138,gianuario48,5.6669698,-0.1877506,"MR86+QVQ, Agbogba Junction, Off the, Haatso-Atomic Road, Accra"
+139,Queens Auto hub,5.667442200000001,-0.1806223,"MR89+XQC, Mensah kanlow street, Accra"
+140,MOMECH AUTO PLUS SERVICES,5.659833399999999,-0.1714525,"IPS Road, Madina"
+141,Willie Dee's Car Washing Bay,5.663210400000001,-0.178437,"MR7C+7JP, Accra"
+142,Okponglo Carwash,5.6408016,-0.1763144,"La-Bawaleshi Road, Accra"
+143,New York Washing Bay,5.667254900000001,-0.194086,"MR84+W93, Haatso-Atomic Road, Accra"
+144,2020 Bay  Bar & Bistro,5.646306699999999,-0.1706659,"Trinity Avenue, Accra"
+145,Solcal Ventures Ltd.,5.641508,-0.1724074,"Blow Lounge, La Bawlashie Road 7. Before, Accra"
+146,Commonwealth Hall Chapel,5.650114899999999,-0.192647,"MR24+2WX, Accra"
+147,Church of Christ  University of Ghana Campus Congregation,5.649320700000001,-0.1774285,Accra
+148,Gracefields Chapel  Accra,5.641613599999999,-0.1780423,"JRRC+JQW, Legon East Road, Accra"
+149,Legon Seventh-day Adventist Church,5.648008900000001,-0.173775,"JRXG+6F5, Accra"
+150,St. Thomas Aquinas Catholic Church,5.6547883,-0.1902376,"Volta Road, Accra"
+151,APOSA LEGON CHAPTER,5.650639399999999,-0.1870506,"MR27+754, Accra"
+152,TheGoodNewsChurch (Spirit Embassy) Accra,5.650639399999999,-0.1870506,"University of Ghana, Accra"
+153,St. Thomas Aquinas Cath. Church Car Park,5.650639399999999,-0.1870506,"MR27+754, Accra"
+154,Church of pentecost Rehoboth,5.650639399999999,-0.1870506,"New legon - Ali, Yemoah Ave, Accra"
+155,Akuafo Hall Chapel,5.6502207,-0.1859056,"MR27+3JQ, Accra"
+156,End Time Evangelical Mission Chapel International,5.6508895,-0.1887717,"MR26+9F5, South St, Taifa"
+157,FIRST CENTURY APOSTOLIC CHURCH ( MICHEL CAMP BRANCH ),5.6544776,-0.188443,"Adjacent Michel Camp Gate, GZ-053-9281 Michel Camp"
+158,National Union of Presbyterian Students - Ghana (NUPS-G UG),5.6472426,-0.1870546,"JRW7+V5W, Accra"
+159,Rectory - STAP,5.654252799999999,-0.1908785,"MR35+PJ5, J.K.M. Hodasi Road, Accra"
+160,STAP Car Park,5.655021199999999,-0.190238,"MR45+2W2, Accra"
+161,Legon Interdenominational Church,5.6556134,-0.1904512,"MR45+6RV, Accra"
+162,Christ Church,5.656059400000001,-0.1902649,"MR45+9RX, Accra"
+163,Obed Amoah Duku Ministries,5.651843699999999,-0.1813129,"0S Obed Amoah Duku Ministries Box, 140 Osu Road, Accra"
+164,Anglican   University of Ghana,5.656532800000002,-0.1902709,Accra
+165,sean,5.6591394,-0.1818015,"MR59+M74, Adams Street, Adenta Municipality"
+166,All Merch.,5.6462593,-0.1872034,"University of Ghana, Mensah Sarbah Hall"
+167,Red Vine Apparel,5.6407796,-0.1769928,"okponglo, Legon, Accra"
+168,Euphoria by Esi,5.650639399999999,-0.1870506,Accra
+169,Fashionmallgh,5.650639399999999,-0.1870506,"MR27+754, Accra"
+170,Aa's STYLE,5.650639399999999,-0.1870506,"D/907, Accra"
+171,Curvy Essentials,5.650639399999999,-0.1870506,"Limann Hall, 269, Accra"
+172,Double VVIP klo set,5.650639399999999,-0.1870506,"MR27+754, Accra"
+173,ME Perfume Hub,5.6504108,-0.1871086,"Legon campus, Accra"
+174,Tees Gallery Africa (TGA),5.6503298,-0.1876836,Accra
+175,ABCAA GROUP,5.653613900000001,-0.1877021,"University of Ghana, Animal Biology Department, Accra"
+176,Njoy Group,5.6500033,-0.1860327,"MR27+2H4, Accra"
+177,Bluebells catalogue,5.650230899999999,-0.1884407,Accra
+178,Verlas Closet,5.6498,-0.1862,"Agyei Barimah Crescent, Accra"
+179,ROC that,5.6517923,-0.1893,"Legon, Accra"
+180,Ahuofedua Clothing,5.648394000000001,-0.189307,"Barimma Street, Evandy Hostel, University of Ghana, Legon"
+181,The Casual Dispenser Outlet,5.650863799999999,-0.1914551,"MR25+8CV, J.K.M. Hodasi Road, Accra"
+182,Peak-strike perfumes,5.651169299999999,-0.1924980999999999,"Legon, Accra"
+183,University Trends Ghana,5.646133799999999,-0.1874686,"Mensah Sarbah Crescent, Accra"
+184,Fantastique Qowa (Clothing Brand),5.6458119,-0.1867153,"Block E, Mensah Sarbah Crescent, Accra"
+185,Prestige African Wear,5.653368599999999,-0.1787476,"MR3C+8GR, Legon Boundary, Accra"
+186,Benzola Supermarket and Mini Restaurant  Akuafo Hall Annex A  Legon Campus,5.6477534,-0.1856964,Accra
+187,Family Mart,5.6681139,-0.188343,"MR96+6MV, Agbogba - Ashongman Road, Accra"
+188,Kampala Courts,5.656577599999999,-0.1810883,"MR49+JHM, Accra"
+189,Children’s Ward  University Hospital  Legon,5.652050399999999,-0.1775743,"MR2C+CRF, Accra"
+190,Discount Pharmacy,5.651153400000001,-0.1690116,"Trinity Avenue, Accra"
+191,FastRoi Digital Solutions LTD,5.650639399999999,-0.1870506,"Business School, Accra"
+192,PKAYD GHANA TECHNOLOGIES,5.650639399999999,-0.1870506,"common wealth hall, Accra"
+193,STUDENTS' PRICE,5.6515839,-0.1825932,"MR28+JXM, Legon Boundary, Accra"
+194,Mensah Sarbah Hall ICT Centre,5.645249700000001,-0.1872792,"JRW7+33X, Mensah Sarbah Crescent, Accra"
+195,Apple Club Gh/WorkSmart Shop,5.656687499999999,-0.1813125,Accra
+196,MSYSTEMS SERVICES,5.6581898,-0.1810994,"University of Ghana, Accra"
+197,QUESTFIND E-STORES LEGON,5.641424499999999,-0.1779608,"Box 23, Accra"
+198,Pro iStore (Apple Premium Reseller) .. iPhone Mac iPad Repair Shop,5.640667000000001,-0.1771253,"1 La-Bawaleshi Road, Accra"
+199,BUYMORE PREMIER COMPUTERS ACCRA BRANCH,5.641198,-0.1751172,"JRRF+FXC, Accra"
+200,Endorsedbox,5.6412023,-0.1750012,"La-Bawaleshi Road, Accra"
+201,iGaDDaFiHuB iCare (Apple Authorized Service Center),5.6410047,-0.1751763,"ecobank okponglo, La-Bawaleshi Road, Accra"
+202,Class House Electronics - Atomic Branch,5.667037100000001,-0.180435,"Center Point Mall, Accra"
+203,DH Electricals Limited,5.6671728,-0.1939378,"276 Haatso-Atomic Road, Accra"
+204,Haggle Store,5.6414073,-0.173546,"La-Bawaleshi Road, Accra"
+205,Boost Electronics,5.641340299999999,-0.1734967,"Ouagadougou Avenue, Accra"
+206,Ghana Fire Service (University of Ghana Station),5.6486909,-0.1812295,"La Road, Accra"
+207,James K Asomah Furniture Works,5.667200100000001,-0.1921146,"Atomic Road, Madina, Accra"
+208,MODERN FLOORS®️ East Legon (Artificial Carpet Grass   Vinyl Flooring (PVC/SPC) Tiles (LVT)   Carpet Tiles & Adhesives),5.640716,-0.1770965,"Ground Floor, Asantewaa Plaza La-Bawaleshie Road, Okponglo Junction, Accra"
+209,Adom Furniture & Constructions Works,5.667563500000001,-0.1903689,"Haatso-Atomic Road, Accra"
+210,Phenicia Furniture - Atomic Junction,5.667136299999999,-0.1796393,"Atomic, Haatso-Atomic Road, Accra"
+211,Naya loyce ventures,5.651975399999999,-0.1690055,"MR2J+Q9X, Trinity Road, Accra"
+212,LEGON 1 TotalEnergies SERVICE STATION,5.6474926,-0.1789381,Legon East Road
+213,LEGON 2 TotalEnergies SERVICE STATION,5.6468933,-0.1788911,Legon East Road
+214,Goil Fuel Station UPSA Junction,5.660271600000002,-0.1774571,"MR6F+423, N4, Accra"
+215,Goil Fuel Station Haatso - Atomic Road Main Station,5.6669317,-0.1864568,"MR87+QCF, Haatso Opposite Goil Filling Station, Accra"
+216,Shell Fuel Station - Legon UG,5.657247799999999,-0.1796213,"MR4C+V5R, Legon East Road, Accra"
+217,Goil Fuel Station PRESEC,5.6603927,-0.1774789,"MR6F+522, IPS Road, Accra"
+218,Shell,5.6669747,-0.1864445,"MR87+QCM, Accra"
+219,Shell Filling Station (Haatso),5.667444499999999,-0.1883656,"Haatso-Atomic Road, Accra"
+220,Shell Filling Station KFC,5.667997799999999,-0.188627,MR96+5GX
+221,Total Fuel Station,5.667082000000001,-0.1783914,"MR8C+RJQ, Atomic Junction Roundabout, Accra"
+222,HERBALIFE NUTRITION - BEST INDEPENDENT DISTRIBUTOR- COACH DAN.,5.650639399999999,-0.1870506,"University of Ghana, Accra"
+223,The Matrix Gym,5.653434,-0.178676,"MR3C+9GG, Accra"
+224,University of Ghana Gym Center,5.639737099999999,-0.1814809,"JRQ9+VCR, New University Road, Accra"
+225,HT Gym,5.666185500000001,-0.1819557,"MR89+F6F, Westland Boulevard Road, Accra"
+226,Theophit Consult,5.6681139,-0.188343,"L' CHAIM EVENT CENTRE, Agbogba - Ashongman Road, Accra"
+227,Joeteh Trinity Spa,5.651869199999999,-0.1705187,Accra
+228,Ananda Marga Yoga Centre,5.667275099999999,-0.1931185,"Haatso-Atomic Road, Haatso"
+229,Achimota & Wellness Fitness Center,5.6499266,-0.169231,"Trinity Avenue, Accra"
+230,PurpleGold Hairs,5.650639399999999,-0.1870506,Accra
+231,Ladies Inn,5.6496477,-0.1890336,"Barimah Road, Accra"
+232,Enams Place,5.644868499999999,-0.185453,"Legon Boundary Mensah sarbah annex B, Accra"
+233,Cessa Hair and Bundles,5.6564128,-0.1812168,"Pent Hall, Accra"
+234,Thebraidshopgh,5.6576536,-0.1819434,"Pentagon hostel, block A, University Of Ghana, Accra"
+235,Andis Barber Studio,5.6534711,-0.1790733,Bushcanteen Legon Campus
+236,Andis Barbershop,5.658062999999999,-0.1813368,"Blk C Wing B, Annie Jiagge Road, Accra"
+237,Fresh Cuts,5.6586376,-0.1818953,"MR59+F65, Accra"
+238,skiller barbering skills,5.6415222,-0.1854886,"Jubilee Drive, Accra"
+239,iPAGE GHANA,5.652455099999999,-0.1734841,"staff village( East legon) fussage circle, Accra"
+240,Smile Barber Shop,5.641552000000001,-0.176835,"JRRF+M95, Accra"
+241,Kabsglow Hair & Make-over  Okponglo,5.640978400000001,-0.1769358,"JRRF+96W, La-Bawaleshi Road, Accra"
+242,Doppa Barbering Salon - Annex,5.640552499999999,-0.1773293,"JRRF+63F, Accra"
+243,Amal's haircare,5.636806900000001,-0.1848367,"JRP8+P3F, Accra"
+244,Limann barbershop,5.6368037,-0.1842888,"Limann Hall, Accra"
+245,Okapi beauty hair,5.652007899999999,-0.1714829,"Dodowa, Hospital Road, Accra"
+246,AJ HAIRANDMAKEOVERS_GH,5.6411985,-0.1751003,"La-Bawaleshi Road, Accra"
+247,Silver Haircut  North Legon,5.667665400000001,-0.1859305,Haatso-Atomic Road
+248,Locsanity Hair Salon,5.641322300000001,-0.1740713,"Okponglo, La-Bawaleshi Road, Accra"
+249,Detail Barber,5.6413122,-0.1740632,"La-Bawaleshi Road, Accra"
+250,James K Asomah Furniture Works,5.667200100000001,-0.1921146,"Atomic Road, Madina, Accra"
+251,rheda royals,5.650639399999999,-0.1870506,"okponglo street, Accra"
+252,The General Store,5.646523999999999,-0.1875711,"Legon Campus, Accra"
+253,Mr. Tawiah Coconuts,5.6482724,-0.1928367,"JRX4+8V3, Kobina Richardson Hill Drive, Accra"
+254,KRAFTY CAKE SUPPLIES,5.6413693,-0.1779557,FIRST EYE BUILDING (OKPONGLO BUS STOP
+255,Everest International Ltd,5.641315199999998,-0.1779583,"JRRC+HR3, Accra"
+256,MODERN FLOORS®️ East Legon (Artificial Carpet Grass   Vinyl Flooring (PVC/SPC) Tiles (LVT)   Carpet Tiles & Adhesives),5.640716,-0.1770965,"Ground Floor, Asantewaa Plaza La-Bawaleshie Road, Okponglo Junction, Accra"
+257,Festimet Party Essentials,5.664873800000001,-0.1959918,"No 14 Jasmine Street, Haatso"
+258,Porcer Ghana Limited,5.641193799999999,-0.1750087,"1 La-Bawaleshi Road, Accra"
+259,Adom Furniture & Constructions Works,5.667563500000001,-0.1903689,"Haatso-Atomic Road, Accra"
+260,Decorzone East Legon,5.640049800000001,-0.1750795,"Ouagadougou Avenue, Accra"
+261,Phenicia Furniture - Atomic Junction,5.667136299999999,-0.1796393,"Atomic, Haatso-Atomic Road, Accra"
+262,HANSEN DECOR CITY,5.6411765,-0.1732442,"JRRG+FPC, Accra"
+263,D’COLLECT BEAUTY FABRICS AND MORE,5.6672988,-0.1956514,"268 Haatso-Atomic Road, Accra"
+264,Naya loyce ventures,5.651975399999999,-0.1690055,"MR2J+Q9X, Trinity Road, Accra"
+265,University of Ghana Teaching Hospital,5.6523215,-0.1860829,"MR27+WHF, Accra"
+266,Students Medical Examination Centre,5.647056,-0.1873261,"University of Ghana, Central Cafeteria, Accra"
+267,University Of Ghana Dental Unit,5.651404100000001,-0.1783679,"MR2C+HM6, Accra"
+268,University Hospital - Legon,5.651067599999999,-0.1779637,"MR2C+CRF, Accra"
+269,Student Clinic UG,5.650562,-0.1962244,Accra
+270,Wellness Centres,5.6459098,-0.1790534,"Spintex Rd., near St. Steven tunnel, to East Legon Rd.,&nbsp, Accra"
+271,Pet cousin,5.6435111,-0.1785453,"JRVC+CH4, Legon East Road, Accra"
+272,Yellow House,5.652747400000001,-0.1731107,"MR3G+3QR, Ahado, Accra"
+273,Yash Formula,5.6388332,-0.1774719,"JRQF+G2J, Accra"
+274,Mchenlys Medical Centre,5.641730800000001,-0.1743994,"Cuppycake House, near, Accra"
+275,Elmash Healthcare and Medical Services formerly known as Diagnolab,5.641337099999999,-0.1735456,"3 La-Bawaleshi Road, Accra"
+276,Esperanza Health Plus,5.667064400000001,-0.1793787,"Center Point Mall, Atomic Junction Roundabout, Accra"
+277,University Hospital Entrance  Legon,5.6511529,-0.1783813,"MR2C+CRF, Accra"
+278,miLife Insurance Limited,5.650639399999999,-0.1870506,"miLife Plaza, Legon West Road. Kissieman, Accra"
+279,Emefa Jewellery Productions Limited,5.667243999999999,-0.193184,"2km down town Haatso road, Accra"
+280,Quemsa Afrique,5.6415222,-0.1854886,"Jubilee Drive, Accra"
+281,Fridays Luxury Jewelry Shop (FridaysGH),5.641282299999999,-0.1779661,"OKponglo Bus Stop, First Eye Paza, J.J Rawlings Avenue, Accra"
+282,The Plug Office,5.637991,-0.1852474,"Dr Hilla Liman Hall, Accra"
+283,RVREDOBBZ,5.6408808,-0.1745073,"18 La-Bawaleshi Road, Accra"
+284,DJIBOUTI yacin,5.639154,-0.1761615,"JRQF+MG8, Djibouti Road, Accra"
+285,Trenor Coats and Gowns Limited,5.6513286,-0.1923944,"J.K.M. Hodasi Road Accra, Legon"
+286,Wash And Wear Laundry Service,5.649857400000001,-0.1888386,"JRX6+WFV, Accra"
+287,Akuafo Laundry Shop,5.649808000000001,-0.185177,"JRX7+WWG, Noguchie Link, Accra"
+288,Ecowash laundry services,5.6525612,-0.1915138,"business school, Accra"
+289,Haatso Shop & Central Plant,5.646628399999999,-0.1870302,"Block E, Mensah Sarbah Crescent, Accra"
+290,Mensah Sarbah Main Hall Females Laundromat,5.6459483,-0.1865476,"Block E, Mensah Sarbah Crescent, Accra"
+291,Wiseway Cleaners Ltd,5.6525868,-0.1795708,"MR3C+25M, Accra"
+292,Lavadry Laundry,5.657862100000001,-0.1818954,"Block A, Pent hostel, Accra"
+293,Laundry Hub,5.6371701,-0.1855868,"Unnamed Road, Accra"
+294,First King Laundry,5.637260899999999,-0.1845726,"University Of Ghana,Dr. Hilla Limann Hall(Room D-1111, Accra"
+295,Ka-bell Laundry Haatso Junction,5.667741500000001,-0.1876936,"Junction, Agbogba, Accra"
+296,Jomens Cleaning & Laundry Ltd,5.641037400000001,-0.1750756,"La-Bawaleshi Road, Accra"
+297,Zel Cleaning Service,5.641380300000001,-0.1743496,Accra
+298,Facsimile Laundry Services,5.658805399999999,-0.1712805,UPSA Hostel4
+299,Presec Library,5.662572099999998,-0.1745572,"MR7G+25G, next to the Administration Annex, Accra"
+300,Research Commons,5.652129500000001,-0.1865748,"MR27+V93, W.E.B. Dubois Road, Accra"
+301,Balme '24' Library,5.652037699999999,-0.1864155,"MR27+RC8, W.E.B. Dubois Road, Accra"
+302,Adu Boahen Memorial Library and Archive,5.6498784,-0.1897442,"MR26+367, Accra"
+303,The mine library,5.648393499999999,-0.1893072,"JRX6+974, Accra"
+304,Hall Library and Alumni Office,5.646406600000001,-0.1872759,"JRW7+H39, Accra"
+305,Commonwealth Basement,5.6503369,-0.1922333,"MR25+44J, Accra"
+306,Commonwealth Hall Library,5.6506381,-0.1935536,"MR24+7H4, Accra"
+307,The Mine Library,5.651704499999999,-0.1764418,"University Staff Bungalows, Accra"
+308,Viamens Gleam Enterprise,5.667641,-0.1933159,"Has to, 306 Haatso-Atomic Road, Accra"
+309,Wine and Spirits Palace (Okponglo Branch),5.6410857,-0.1735758,Accra
+310,Ghana Revenue Authority  Legon Medium Taxpayer Office (MTO),5.642472400000001,-0.1779947,"Legon East Road, Accra"
+311,Valco Trust Hostel Phase 2,5.6442454,-0.1867814,"Noguchie Link, Accra"
+312,Volta Hall,5.651687,-0.189828,"J.K.M. Hodasi Road, Accra"
+313,Valco Trust Hostel Phase 1,5.6447383,-0.1868546,"JRV7+V7R, Mensah Sarbah Crescent, Accra"
+314,Akuafo Hall Annex C,5.647463300000002,-0.1853050000000001,Accra
+315,University of Ghana Guest Centre,5.6449207,-0.1896858,"Leslie MarCarthy Link, Accra"
+316,Akuafo Hall Annex B,5.6469289,-0.1856753,"JRW7+QPG, Agyei Barimah Crescent, Accra"
+317,Commonwealth D Block,5.650849599999999,-0.1921089,"Commonwealth Hall, Accra"
+318,Commonwealth C Block,5.650408899999999,-0.1920944,"Commonwealth Hall, Accra"
+319,Best Atlantic Guesthouse Ltd,5.655462,-0.180962,"Ga South, Accra"
+320,GHANA HOSTELS LTD FLATS PENTAGON,5.656601800000001,-0.1814073,Accra
+321,African Union (Pentagon) Hall  Block B,5.658963200000001,-0.182091,"MR59+H5M, Annie Jiagge Road, Accra"
+322,Jubilee Hall,5.6403435,-0.1862323,"Jubilee Drive, Accra"
+323,Bani Hostel,5.663091000000001,-0.1797826,"Legon East Road, Accra"
+324,Dr. Hilla Limann Hall,5.637331700000002,-0.1848835,"Jubilee Drive, Accra"
+325,Jean Nelson Aka Hall,5.6352521,-0.1884651,"JRP6+8H6, Accra"
+326,UPSA Hostel,5.6589281,-0.1714249,"MR5H+HCV, Accra"
+327,Akuafo Hall Annex D,5.6472018,-0.1858704,"JRW7+VMJ, Agyei Barimah Crescent, Accra"
+328,SAM'S COTTAGE HOTEL,5.65064,-0.18705,"P O BOX LG 446, Accra"
+329,Legon Hills Hotel,5.650639399999999,-0.1870506,"MR27+754, Accra"
+330,THE RESIDENCE HOTEL,5.650639399999999,-0.1870506,"1st Haick Street, GIMPA Bypass"
+331,Barita's Restaurant,5.651301,-0.1922652,"Legon Campus, Commonwealth Hall, Accra"
+332,Barita's Restaurant,5.651301,-0.1922652,"Legon Campus, Commonwealth Hall, Accra"
+333,KFC Haatso Shell,5.6678343,-0.1884243,"Shell Filling Station, Cnr Haatso-Atomic, & Agbogba - Ashongman Road, Accra"
+334,Mr Wu’s Chinese Fast Food - Legon Campus (Bani),5.6631704,-0.1795463,"Bani Hostel, Accra"
+335,Norish-Norish,5.668521500000001,-0.1934202,"Royal Palm Street, Accra"
+336,Mensah Sarbah Hall Mosque,5.645491900000001,-0.1864135,"JRW7+5CW, Mensah Sarbah Crescent, Accra"
+337,Akuafo Hall Mosque,5.6496238,-0.1859897,"JRX7+RJR, Agyei Barimah Crescent, Accra"
+338,Legon Hall Mosque,5.650074899999999,-0.1874462,"MR27+22F, Accra"
+339,UN Maulah Mosque,5.6536276,-0.1819659,"MR39+F63, Accra"
+340,Legon Central Mosque,5.6413708,-0.1846583,"Legon Mosque, Accra"
+341,Okponglo Central Mosque,5.6404622,-0.1761979,"JRRF+5GM, Djibouti Road, Accra"
+342,Al-furqan charitable organisation masjeed,5.6412459,-0.1752589,"JRRF+FVX, La-Bawaleshi Road, Accra"
+343,Museum Of Archaeology,5.6521781,-0.1813205,"MR29+VFF, Accra"
+344,Fortunate Gardens,5.650639399999999,-0.1870506,"MR27+754, Accra"
+345,Bacchus Garden,5.650599400000001,-0.1905716,"Legon Boundary, Accra"
+346,Mensah Sarbah Park,5.644652799999998,-0.1883782,"JRV6+VJ9, Accra"
+347,Leaflove,5.6544849,-0.1750878,"O.T. 92, Hospital Road, Accra"
+348,Legon Botanical Gardens Playground,5.666674599999999,-0.1875545,Accra
+349,Lizalex,5.6366041,-0.1866439,"JRP7+J8X, Accra"
+350,Legon Botanical Gardens Ghana..,5.6669698,-0.1877506,"Agbogba Junction, Off the, Haatso-Atomic Road, Accra"
+351,Living Green Herbs and Seedlings,5.667249799999999,-0.1841823,"comm 25, branches:Atomic Junction Roundabout - legon madina & dawhenya Methodist junction, Tema"
+352,Heath Botanica,5.652160900000001,-0.1700158,"MR2H+VX9, Hospital Road, Accra"
+353,Mensah Sarbah Annexes Car Park,5.645730799999999,-0.1853085,"JRW7+7VW, Noguchie Link, Accra"
+354,Jubilee Car Park,5.6497803,-0.1915194,"JRX5+W99, Accra"
+355,Administration Car Park,5.662468899999999,-0.1762589,"MR6F+XFQ, Accra"
+356,UGCS Parking Lot,5.6519884,-0.1881541,"MR26+QPX, W.E.B. Dubois Road, Accra"
+357,Akuafo Car Parking Lot,5.649421799999999,-0.185244,"JRX7+QW6, Noguchie Link, Accra"
+358,Bush Canteen Car Park  Inside UG Campus,5.648864400000002,-0.1809512,"JRX9+GJV, Accra"
+359,University of Ghana Car Park,5.650562,-0.1962244,"MR23+6GC, Accra"
+360,Alexander Kwapoong Car Park,5.6373895,-0.1854686,"JRP7+WMX, Legon East Road, Accra"
+361,EnkasaAutomobiles Annex,5.6499266,-0.169231,"Trinity Avenue, Accra"
+362,Vetmart and Pet Grooming Ent.,5.6668264,-0.182405,"TF hostels, North Legon Opposite, Accra"
+363,Dogfadakennel,5.667599399999999,-0.1947438,"New York Washing Bay, 290 Haatso-Atomic Road, Accra"
+364,Silverpill Pharmacy,5.651668300000001,-0.1894414,"Volta Hall, University of Ghana Legon"
+365,Legon Hall Pharmacy,5.6467891,-0.1886103,Accra
+366,Ernest Chemists LTD,5.653152899999999,-0.1801954,"MR39+7W7, Legon Boundary, Accra"
+367,Pills and Tabs,5.648109199999999,-0.1788023,"Legon East Road, Accra"
+368,CS Allot Pharmacy  Legon,5.658379299999999,-0.1807054,"Ghana Hostels, Block C, Accra"
+369,Adenta Pharmacy Ltd,5.6459098,-0.1790534,"N4, Accra"
+370,Solutions Pharmacy,5.6409639,-0.1774419,"JRRF+92M, Accra"
+371,PillPoint Pharmacy - Okponglo,5.640961600000001,-0.1774315,Accra
+372,Tabletsxtra | Pharmacy Mart,5.640958200000001,-0.1774221,"La-Bawaleshi Road, Accra"
+373,Zoe Pharmaceuticals Limited,5.667459699999999,-0.185721,"HNo 15 Haatso, Accra"
+374,CELIA PHARMACY,5.6414331,-0.1738862,"East Legon, Opkonglo, Accra"
+375,The Medishop Pharmacy,5.6672028,-0.1935214,"306 Haatso-Atomic Road, Accra"
+376,Rhamshiv (Equity) Pharmacy,5.641346,-0.1738563,"JRRG+GFJ, Accra"
+377,Pharmacy Direct GH - Atomic,5.6672492,-0.1803563,"Centre Point Mall, Haatso"
+378,Radiance Pharmacy,5.668672600000001,-0.1880097,Accra
+379,St Kem Pharmacy and Mart,5.668105599999999,-0.1818975,MR99+66X
+380,Origin Chemist  East Legon,5.651157200000001,-0.1691529,"Trinity Avenue, Accra"
+381,Discount Pharmacy,5.651153400000001,-0.1690116,"Trinity Avenue, Accra"
+382,Ghana Police Service (Legon Station),5.650466300000001,-0.1796249,"MR2C+55J, Legon East Road, Accra"
+383,University Post Office,5.650859699999999,-0.1877532,"MR26+8VX, W.E.B. Dubois Road, Accra"
+384,Ghana Post  Legon,5.650817700000001,-0.1878063,"W.E.B. Dubois Road, Accra"
+385,University Basic School  Legon,5.642704399999999,-0.1879888,"University of Ghana Stadium, Accra"
+386,Legon Primary School,5.649875899999999,-0.1780338,"JRXC+XQ4, Accra"
+387,Staff Village Basic School,5.6498347,-0.177865,"Legon Primary School, Accra"
+388,Grace Child Preparatory School,5.667527399999999,-0.1787462,"Haatso-Atomic Road, Accra"
+389,CBC Properties - Ghana,5.641452699999999,-0.1735128,"GM Plaza, Okponglo, La-Bawaleshi Road, Accra"
+390,University Estates Department,5.647524099999999,-0.1812663,"JRX9+2F5, La Road, Accra"
+391,dreamluxury,5.6464196,-0.1957506,"Legon, 16 little legon, Accra"
+392,Golden Image Graffix,5.641538300000001,-0.17784,"Legon East Road, Accra"
+393,Batsa The Realtor,5.640437899999999,-0.1774887,"Oknonglo Traffic, Accra"
+394,RE/MAX Ghana,5.667770000000001,-0.1877131,"1 Agbogba - Ashongman Road, Accra"
+395,Woodgreen Developers,5.6681143,-0.188343,"Kwabenya, Agbogba - Ashongman Road, Accra"
+396,MURPHY HOMES GHANA,5.640305999999998,-0.1751744,"Avila village, Akosombo - Tema Road, Tema"
+397,Justice Obri yeboah’s Villa,5.6687463,-0.188318,"GM 078, 4631 Agbogba - Ashongman Road"
+398,Kenon Properties Limited,5.6648437,-0.1981289,"Jasmine Street, Papao Haatso Road, Accra"
+399,Praemus Properties Limited,5.6509271,-0.1692068,"MR2J+98F, Trinity Avenue, Accra"
+400,Solcal Ventures Ltd.,5.641508,-0.1724074,"Blow Lounge, La Bawlashie Road 7. Before, Accra"
+401,Sompa Properties,5.6509934,-0.1690241,"Trinity Avenue, Accra"
+402,Bonjour,5.6474782,-0.1789999,"JRWC+XCR, Legon East Road, Accra"
+403,Barita's Restaurant,5.651301,-0.1922652,"Legon Campus, Commonwealth Hall, Accra"
+404,Commonwealth Hall Dining Hall,5.651211000000001,-0.1926186,"MR24+FXJ, Accra"
+405,Bush Canteen,5.6481347,-0.1810349,"JRX9+7H4, Legon East Road, Accra"
+406,Candy's Spot,5.6668314,-0.1865006,"Haatso-Atomic Road, Accra"
+407,KFC Haatso Shell,5.6678343,-0.1884243,"Shell Filling Station, Cnr Haatso-Atomic, & Agbogba - Ashongman Road, Accra"
+408,De'lish Restaurant,5.641330000000001,-0.1736955,"Postal Address Box CT 6241 Cantonments Accra, Store Location: Bawaleshie Road - Okponglo (Google maps calls it Freetown Ave.)), 10 La-Bawaleshi Road, Accra"
+409,Pan Express Fresh&Fast,5.650045299999999,-0.1692387,"MR2J+286, Trinity Avenue, Accra"
+410,Tasty Treats,5.6341398,-0.1842811,Accra
+411,Papaye Fast Food Legon,5.651820900000001,-0.1866358,Accra
+412,Mr Treats,5.650639399999999,-0.1870506,"Mensah Sarbah Hall, Accra"
+413,Majory Eatery,5.650639399999999,-0.1870506,Accra
+414,Gironse restaurant,5.650639399999999,-0.1870506,"MR27+754, Accra"
+415,Tayiba Bar and Grill,5.650401799999999,-0.1867663,Adjacent Legon Botanical Garden at Agbogba Junction
+416,Legon Hall Dining Hall,5.6503009,-0.18815,"MR26+4PH, Barimah Road, Accra"
+417,Farmer's Kitchen,5.6504293,-0.1853843,"MR27+5RH, Doutor J. B. Danquah Avenue, Accra"
+418,Aunties Lizzy's kitchen,5.6536434,-0.1859412,"MR37+FJ3, J.K.M. Hodasi Road, Accra"
+419,Village Canteen,5.6501398,-0.1854612,"MR27+3R3, Doutor J. B. Danquah Avenue, Accra"
+420,Legon Hall Barbecue Joint,5.6502884,-0.1888114,"MR26+4F8, Accra"
+421,Time Out,5.649852000000001,-0.1889492,"Barimah Road, Accra"
+422,Department of Statistics,5.6538662,-0.1838368,"Department of Mathematics, Botanical Gardens Road, Accra"
+423,School of Information and Communication Studies,5.651743499999998,-0.1813064,"MR29+MFW, Osu Road, Accra"
+424,School of Nursing and Midwifery,5.6535398,-0.1902256,"MR35+CW6, J.K.M. Hodasi Road, Accra"
+425,Centre for Remote Sensing and Geographic Information Services,5.6513738,-0.1829197,"Annie Jiagge Road, Accra"
+426,Department of Geography and Resource Development,5.650972100000001,-0.1832581,"MR28+9MQ, Doutor J. B. Danquah Avenue, Accra"
+427,University Basic School  Legon,5.642704399999999,-0.1879888,"University of Ghana Stadium, Accra"
+428,Maison Française Legon,5.6492965,-0.1876909,"Legon Boundary, Accra"
+429,Department of Earth Science,5.650936399999999,-0.1841512,"Department of Geology, Accra"
+430,Legon Centre for International Affairs and Diplomacy,5.652187600000001,-0.1839241,"J.K.M. Hodasi Road, Accra"
+431,College Of Basic And Applied Sciences,5.650165499999999,-0.1836591,Accra
+432,Department Of Linguistics,5.64902,-0.189642,"JRX6+J45, Accra"
+433,JQB,5.6522461,-0.1817523,Accra
+434,Mensah Sarbah Annex B,5.6448733,-0.185405,"JRV7+WRX, Accra"
+435,Presbyterian Boys' Secondary School,5.66265,-0.1763339,"Westland Boulevard Road, Madina"
+436,School of Public Health,5.636787399999999,-0.1826353,"JRP8+PW9, Accra"
+437,Elizabeth Frances Sey Hall,5.635961099999999,-0.1875964,"20 Orphan Crescent, Accra"
+438,Preparation For Life (PFL) Ghana,5.6410181,-0.1740063,"La Bawaleshi Road, Near Ecobank Okponglo Branch, Opposite GM Plaza Building, Accra GA417 Legon"
+439,UPSA Hostel,5.6589281,-0.1714249,"MR5H+HCV, Accra"
+440,The Ɔdadeɛ Alumni & Mentorship Centre,5.660544199999999,-0.1720211,"MR6H+659, Madina"
+441,School of Graduate Studies,5.6532353,-0.1907917,"J.K.M. Hodasi Road, Accra"
+442,Elany's Collection,5.650639399999999,-0.1870506,Accra
+443,Njoy Group,5.6500033,-0.1860327,"MR27+2H4, Accra"
+444,Regular Shoes Warehouse,5.6448046,-0.1856575,"JRV7+WPG, Mensah Sarbah Crescent, Accra"
+445,CDH Shoes and Bags,5.653320799999999,-0.1787093,"Legon Boundary, Accra"
+446,The Plug Office,5.637991,-0.1852474,"Dr Hilla Liman Hall, Accra"
+447,Legon City Mall,5.6533233,-0.1789251,"University of Ghana, Legon Boundary, Accra"
+448,OverStock Africa,5.650639399999999,-0.1870506,"MR27+754, Accra"
+449,Foto Lady Photo Shop,5.6503945,-0.1865587,"MR27+594, Accra"
+450,BAGCODEGH,5.650885000000001,-0.1914524,"commonwealth hall, University Of Ghana, Accra"
+451,Maries Mart,5.647050500000001,-0.1872417,"JRW7+R4C, Accra"
+452,Reveal Diagnostics,5.653323299999999,-0.1788099,"Legon Mall, Accra"
+453,First Eye Plaza,5.6414217,-0.1779605,Accra
+454,Robotics Programming And Educational Centre,5.6405041,-0.1774926,"1 La-Bawaleshi Road, Accra"
+455,BVS Store,5.6677956,-0.18832,MR96+4M7
+456,Emamee Beauty Supply,5.66853,-0.1880607,MR96+CQ8
+457,GM PLAZA,5.641363599999999,-0.1735047,"JRRG+GHX, Accra"
+458,Afia Aboraa Plaza by Rob Definitions,5.641348600000001,-0.1734647,"3 La-Bawaleshi Road, Accra"
+459,CENTRE POINT MALL - Atomic Junction,5.667077499999999,-0.1793577,"MR8C+R7J, Accra"
+460,Atlantic Mall,5.667450300000001,-0.1784086,"Kwabenya Bus Station, Haatso-Atomic Road, Accra"
+461,The Bloom Spa,5.652375399999999,-0.1810482,"Royal Richester Hotel, Legon East Road, Accra"
+462,Mamé Eku mobile spa,5.6464196,-0.1957506,"Little Legon, Accra"
+463,Akwaaba clinic,5.6671288,-0.1890903,"Shai Hills Forest Resort, Doryumu"
+464,Happy Health Haven,5.669005500000001,-0.1866342,"10 Kofi Annan Avenue, Accra"
+465,North Legon Spa,5.668616900000001,-0.1825574,"Opposite North Legon Hospital, Kofi Annan Avenue, Accra"
+466,Special Touch Massage,5.6540518,-0.1692192,"Mepeasem, Accra"
+467,University Of Ghana Sports Stadium,5.6391338,-0.1799011,"University of Ghana Stadium, Accra"
+468,University Sports Field,5.6487228,-0.1872572,Accra
+469,Hand Ball Court,5.6479421,-0.1878063,Ayawaso
+470,National Express Ghana Limited,5.653813,-0.1785154,Accra
+471,Pee’s dealership & beauty products ltd,5.652687500000001,-0.1824375,"MR39+32W, Accra"
+472,Latex Foam Ltd,5.659960100000001,-0.173094,"MR5G+XQJ, Madina"
+473,All Needs Supermarket,5.6429593,-0.1861497,"JRV7+5HR, Jubilee Drive, Accra"
+474,University Of Ghana Bookshop,5.6509915,-0.1867112,Accra
+475,All Merch.,5.6462593,-0.1872034,"University of Ghana, Mensah Sarbah Hall"
+476,GMi Motors,5.653183200000001,-0.1789299,"MR3C+7CG, LegonMall,, Legon Boundary, Accra"
+477,YN Productions office,5.644199,-0.178672,"Legon East Road, Accra"
+478,Red Vine Apparel,5.6407796,-0.1769928,"okponglo, Legon, Accra"
+479,James K Asomah Furniture Works,5.667200100000001,-0.1921146,"Atomic Road, Madina, Accra"
+480,Melvic Technologies,5.635477900000001,-0.1873514,"University of Ghana, Elizabeth Frances Sey Hall Room B 2054"
+481,Emefa Jewellery Productions Limited,5.667243999999999,-0.193184,"2km down town Haatso road, Accra"
+482,Cuppycake House,5.6411701,-0.1743096,"La-Bawaleshi Road, Accra"
+483,Cake City Center Point,5.6667129,-0.1798358,"Atomic Haatso Road, Accra"
+484,Gesam-Legon Royals,5.650639399999999,-0.1870506,"Legon, Accra"
+485,rheda royals,5.650639399999999,-0.1870506,"okponglo street, Accra"
+486,Euphoria by Esi,5.650639399999999,-0.1870506,Accra
+487,Tertiary Fitness,5.650639399999999,-0.1870506,Accra
+488,Elany's Collection,5.650639399999999,-0.1870506,Accra
+489,Fashionmallgh,5.650639399999999,-0.1870506,"MR27+754, Accra"
+490,HERBALIFE NUTRITION - BEST INDEPENDENT DISTRIBUTOR- COACH DAN.,5.650639399999999,-0.1870506,"University of Ghana, Accra"
+491,Superlife STC30,5.650639399999999,-0.1870506,"TF Hall, Accra"
+492,FastRoi Digital Solutions LTD,5.650639399999999,-0.1870506,"Business School, Accra"
+493,All Needs Supermarket,5.6429593,-0.1861497,"JRV7+5HR, Jubilee Drive, Accra"
+494,Isaac Owusu,5.650639399999999,-0.1870506,"MR27+754, Accra"
+495,Tesbury Groceries,5.653317800000001,-0.1788103,"N4 Legon City Mall, Accra"
+496,Gratitude Supermarket East Legon,5.640805799999999,-0.1769942,"JRRF+859, La-Bawaleshi Road, Accra"
+497,Easy Mart,5.6681139,-0.188343,"MR96+6MV, Agbogba - Ashongman Road, Accra"
+498,Sapmart,5.6411743,-0.1728153,"JRRG+FV7, Accra"
+499,Legon Taxi Stand,5.6494647,-0.1794245,"JRXC+Q6P, Legon East Road, Accra"
+500,Taxi Rank,5.6625652,-0.1814384,"MR79+2CF, Unnamed Road, Accra"
+501,Legon Taxi Station,5.640959899999999,-0.178952,"JRRC+9CM, Accra"
+502,Quemsa Afrique,5.6415222,-0.1854886,"Jubilee Drive, Accra"
+503,Selfie Studio,5.667066200000001,-0.179375,"MR8C+R6X, Haatso, Madina"
+504,Legon Trotro Station,5.6495469,-0.1792049,"Legon East Road, Accra"
+505,Okponglo Bus Stop,5.641684100000001,-0.178116,Accra
+506,Okponglo Bus Stop,5.6397935,-0.17815,"Legon East Road, Accra"
+507,Agbogba Junction Bus Stop,5.667410900000001,-0.1882133,Haatso-Atomic Road
+508,Ghana Korea Information Access Centre,5.652050199999999,-0.1875867,"W.E.B. Dubois Road, Accra"
+509,Emerald’s Eagle Limited,5.650639399999999,-0.1870506,"MR27+754, Accra"
+510,Greenlight Travel and Tourism,5.650639399999999,-0.1870506,market 9th street
+511,ideal travel,5.650639399999999,-0.1870506,"MR27+754, Accra"
+512,Olimef enterprise,5.646771300000001,-0.181174,"police station, Akotiana street,behind Tseaddo, Accra"
+513,Switch Car Rentals,5.6397096,-0.1773567,"5 1st Freetown Link, Accra"
+514,Pacific Global DMC,5.6408616,-0.1754441,"ECO Bank, La-Bawaleshi Rd, Opp, Accra"
+515,Luxurylite Trips Consult,5.6681139,-0.188343,First floor No.1 Selassie junction office of Wisconsin Agbogba road
+516,Adansi Travel House,5.641040400000001,-0.1745292,"GA-417-8073, La-Bawaleshi Road, Accra"
+517,MyGhanaTours,5.6683172,-0.1883928,"Royal palm street, Agbogba - Ashongman Road, Haatso"
+518,Biovell Travel and Tour,5.668813999999999,-0.1860095,18 Kofi Annan Avenue
+519,Bill Travel Consult,5.6414658,-0.1732624,"La-Bawaleshi Road, Okponglo"
+520,Vensa Travel Services,5.669005500000001,-0.1866342,"10 Kofi Annan Avenue, Accra"
+521,Travel Windows and Educational Consult,5.668787500000001,-0.182025,"MR99+G59, Kofi Annan Avenue, B"
+522,Sky Success Travels Limited,5.641324400000001,-0.1725391,"39, 10 La-Bawaleshi Road, Accra"
+523,University of Ghana,5.650562,-0.1962244,"Legon Boundary, Accra"
+524,Department of Music,5.6492089,-0.1807597,"JRX9+PHC, La Road, Accra"
+525,School of Engineering Sciences,5.655278699999998,-0.183031,"Annie Jiagge Road, Accra"
+526,School of Pharmacy,5.653974900000001,-0.1892706,"Volta Road, Accra"
+527,Commonwealth Block A,5.650419200000001,-0.1916814,"MR25+588, Accra"
+528,International Programmes Office  University of Ghana,5.653574199999999,-0.1820496,"MR39+C5C, Annie Jiagge Road, Accra"
+529,Archaeology Annex,5.652092199999999,-0.1817517,"MR29+R7Q, Osu Road, Accra"
+530,Administration and Porters Lodge,5.646266,-0.1870197,"JRW7+G55, Mensah Sarbah Crescent, Accra"
+531,Valco Trust Hostel Phase 1,5.6447383,-0.1868546,"JRV7+V7R, Mensah Sarbah Crescent, Accra"
+532,ECOWAS Coastal & Marine Resources Management Centre,5.652790800000001,-0.1839263,"MR38+4C8, ARPPIS Building, J.K.M. Hodasi Road, Accra"
+533,CEGENSA,5.649100999999999,-0.183773,Accra
+534,Students Financial Aid Office and Students with Special Needs Office,5.6479586,-0.1836465,"JRX8+5GQ, Accra"
+535,Cash Office,5.6503365,-0.1942295,"MR24+48J, Vice Chancellor's Road, Accra"
+536,University of Ghana Registry,5.6501606,-0.1954113,"MR23+3R8, Accra"
+537,Benchmark Professional Training Centre,5.640526699999999,-0.1775232,"Legon East Road, Accra"
+538,Management Development And Productivity Institute,5.638253,-0.177021,"McDan Dr, 1st Freetown Lk, Okponglo"
+539,Institute of African Studies Chalets,5.6364008,-0.1800491,"JRP9+HX8, South Legon Drive, Accra"
+540,Balme Library,5.6517352,-0.1870479,"Doutor J. B. Danquah Avenue, Accra"
+541,Manaf,5.6520701,-0.1863411,"MR27+RC8, W.E.B. Dubois Road, Accra"
+542,Regional Marine Centre,5.650885099999999,-0.1866993,"Top of University bookshop, Doutor J. B. Danquah Avenue, Accra"
+543,Small Animal Teaching Hospital (SATH),5.6666871,-0.1857972,Accra
+544,East Legon Veterinary Centre,5.641086700000001,-0.1757578,"C33, 29 La-Bawaleshi Road, Accra"

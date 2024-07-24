@@ -11,9 +11,9 @@ class IOService:
         if initialSetOfPlaces:
             with open(file_path, "a", newline = "", encoding = "utf-8") as fa1:
                 writer = csv.writer(fa1)
-                writer.writerow(["Index", "Name", "Latitude", "Longitude", "Address"])  # Header row for CSV
+                writer.writerow(["ID", "Name", "Latitude", "Longitude", "Address"])  # Header row for CSV
                 for idx, school in enumerate(schools, 1):
-                    writer.writerow([idx, school["Name"].replace(',', ' '), school["Latitude"], school["Longitude"], school["Address"]])
+                    writer.writerow([idx, school["Name"].replace('"', ' ').replace(',', ' '), school["Latitude"], school["Longitude"], school["Address"]])
         else:
             with open(file_path, "r", encoding = "utf-8") as fr:
                 reader = csv.reader(fr)
@@ -24,7 +24,7 @@ class IOService:
             with open(file_path, "a", newline="", encoding="utf-8") as fa2:
                 writer = csv.writer(fa2)
                 for idx, school in enumerate(schools, nextIdx):
-                    writer.writerow([idx, school["Name"], school["Latitude"], school["Longitude"], school["Address"]])
+                    writer.writerow([idx, school["Name"].replace('"', ' ').replace(',', ' '), school["Latitude"], school["Longitude"], school["Address"]])
 
     def write_to_text(self, schools: list[dict], file_path: str) -> None:
         """Write the search results to a text file."""

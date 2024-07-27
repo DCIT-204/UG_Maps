@@ -16,5 +16,8 @@ public class Main {
         System.out.println(99);
         System.out.println(ReadCSV.getLatitude(csvContents,"Commonwealth"));
         System.out.println(ReadCSV.getLandmark(csvContents,"Commonwealth"));
+
+        ArrayList<String[]> csvContents1 = ReadCSV.readCSV("src/NavigationAlgorithm/UG-distances.csv");
+        System.out.println(ReadCSV.getNeighbours(csvContents1,34));
     }
 }

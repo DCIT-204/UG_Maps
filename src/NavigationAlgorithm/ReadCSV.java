@@ -3,6 +3,7 @@ package src.NavigationAlgorithm;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class ReadCSV {
     public static ArrayList<String[]> readCSV(String file) {
@@ -63,8 +64,8 @@ public class ReadCSV {
     public static String getLandmark(ArrayList<String[]> csvContents, String location) {
         for (String[] row : csvContents) {
             if (row[1].equalsIgnoreCase(location)) {
-                return row[1]; 
-                
+                return row[1];
+
             }
         }
         return "No landmark allocated";
@@ -99,5 +100,25 @@ public class ReadCSV {
 
     public static int getID(ArrayList<String[]> csvContents, String name) {
         return getIdByName(csvContents, name);
+    }
+
+
+    public static ArrayList getNeighbours(ArrayList<String[]> csvContents, int ID) {
+        ArrayList<String> neighbourList = new ArrayList<>();
+        String[] csvTitle = csvContents.get(0);
+        for (String[] row : csvContents) {
+            if (!Objects.equals(row[0], "ID")) {
+                if (Integer.parseInt(row[0]) == ID) {
+                    for (int i = 1; i < row.length; i++) {
+                        if (Double.parseDouble(row[i]) < 600) {
+                            if (!(Integer.parseInt(csvTitle[i]) == ID)) {
+                                neighbourList.add(csvTitle[i]);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return neighbourList;
     }
 }

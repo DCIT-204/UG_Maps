@@ -8,8 +8,8 @@ public class CustomPriorityQueue {
 
 
     public CustomPriorityQueue() {
-        this.priorityQueue = new PriorityQueue<>(Comparator.comparingDouble(node -> node.distance));
-        priorityQueue.add(new Node(Integer.MAX_VALUE, Double.MAX_VALUE, null));
+        this.priorityQueue = new PriorityQueue<>(Comparator.comparingDouble(node -> node.totalDistance));
+        priorityQueue.add(new Node(Integer.MAX_VALUE, null, Double.MAX_VALUE, Double.MAX_VALUE));
     }
 
     // Add a new Node to the priority queue

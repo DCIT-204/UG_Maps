@@ -111,8 +111,10 @@ public class ReadCSV {
 
     public static String getNameById(ArrayList<String[]> csvContents, int id) {
         for (String[] row : csvContents) {
+            if(!Objects.equals(row[0], "ID")){
             if (Integer.parseInt(row[0]) == id) {
                 return row[1];
+            }
             }
         }
         return null; // Return null if the id is not found

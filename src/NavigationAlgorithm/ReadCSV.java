@@ -84,8 +84,8 @@ public class ReadCSV {
     public static String getLandmark(ArrayList<String[]> csvContents, String location) {
         for (String[] row : csvContents) {
             if (row[1].equalsIgnoreCase(location)) {
-                return row[1]; 
-                
+                return row[1];
+
             }
         }
         return "No landmark allocated";
@@ -128,3 +128,24 @@ public class ReadCSV {
         return csvContents.size();
     }
 }
+
+    public static ArrayList getNeighbours(ArrayList<String[]> csvContents, int ID) {
+        ArrayList<String> neighbourList = new ArrayList<>();
+        String[] csvTitle = csvContents.get(0);
+        for (String[] row : csvContents) {
+            if (!Objects.equals(row[0], "ID")) {
+                if (Integer.parseInt(row[0]) == ID) {
+                    for (int i = 1; i < row.length; i++) {
+                        if (Double.parseDouble(row[i]) < 600) {
+                            if (!(Integer.parseInt(csvTitle[i]) == ID)) {
+                                neighbourList.add(csvTitle[i]);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return neighbourList;
+    }
+}
+

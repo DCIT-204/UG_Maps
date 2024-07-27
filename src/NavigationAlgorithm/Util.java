@@ -30,14 +30,11 @@ public class Util {
 
     public static double getDistance(int node1, int node2){
 
-
         double lat1 = ReadCSV.getLatitude(csvContents,node1);
         double long1 = ReadCSV.getLongitude(csvContents,node1);
         double lat2 = ReadCSV.getLatitude(csvContents,node2);
         double long2 = ReadCSV.getLongitude(csvContents,node2);
-//        System.out.println(node1);
-//        System.out.println(node2);
-//        System.out.println(haversineDistance(lat1,long1,lat2,long2));
+
         return haversineDistance(lat1,long1,lat2,long2);
 
         }

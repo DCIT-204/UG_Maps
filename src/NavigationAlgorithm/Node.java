@@ -1,32 +1,19 @@
 package src.NavigationAlgorithm;
 
-//public class Node {
-//  public int id;
-//  public Node parent;
-//  public double distance;
-//
-//
-//  public Node( int id, double distance, Node parent) {
-//    this.parent = parent;
-//    this.distance = distance;
-//    this.id = id;
-//  }
-//
-//}
+public class Node {
+  public int id;
+  public Node parent;
+  public double totalDistance;
 
-class Node implements Comparable<Node> {
-  int id;
-  double distance;
-  Node parent;
+  public double costToNode;
 
-  public Node(int id, double distance, Node parent) {
+  public double costToTarget;
+
+  public Node(int id, Node parent, double costToNode, double costToTarget) {
     this.id = id;
-    this.distance = distance;
     this.parent = parent;
-  }
-
-  @Override
-  public int compareTo(Node other) {
-    return Double.compare(this.distance, other.distance);
+    this.costToNode = costToNode;
+    this.costToTarget = costToTarget;
+    this.totalDistance = costToNode + costToTarget;
   }
 }

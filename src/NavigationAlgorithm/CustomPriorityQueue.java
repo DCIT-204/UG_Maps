@@ -1,11 +1,15 @@
+package src.NavigationAlgorithm;
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class CustomPriorityQueue {
     private PriorityQueue<Node> priorityQueue;
 
+
     public CustomPriorityQueue() {
-        this.priorityQueue = new PriorityQueue<>((node1, node2) -> Float.compare(node1.distance, node2.distance));
+        this.priorityQueue = new PriorityQueue<>(Comparator.comparingDouble(node -> node.totalDistance));
+        priorityQueue.add(new Node(Integer.MAX_VALUE, null, Double.MAX_VALUE, Double.MAX_VALUE));
     }
 
     // Add a new Node to the priority queue

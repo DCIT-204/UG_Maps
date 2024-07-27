@@ -1,0 +1,70 @@
+package src.NavigationAlgorithm;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+
+public class AStar {
+    static ArrayList<List<Integer>> routes = new ArrayList<>();
+    static ArrayList<Double> distances = new ArrayList<>();
+    static double dist = 0;
+    static void getSolution(Node node, int end){
+        ArrayList<Integer> path = new ArrayList<>();
+        while(node.parent != null){
+            path.add(node.id);
+            if(node.id == end) {
+                dist = node.totalDistance;
+            }
+            node = node.parent;
+        }
+        path.add(node.id);
+        distances.add(dist);
+        routes.add(path.reversed());
+    }
+    public static int Astar(int start, int end) {
+        Set<Integer> visited = new HashSet<>();
+        CustomPriorityQueue queue = new CustomPriorityQueue();
+        queue.add(new Node(start, null, 0, 0));
+
+        while (!queue.isEmpty()) {
+            Node node = queue.remove();
+            if (node == null) {
+                break;
+            }
+
+            if (node.id != Integer.MAX_VALUE) {
+                int currentNode = node.id;
+                double currentCost = node.costToNode;
+
+                if (currentNode == end) {
+                    getSolution(node,end);
+                    continue;
+                }
+
+                if (visited.contains(currentNode)) {
+                    continue;
+                }
+
+                visited.add(currentNode);
+
+                for (int neighbour: Util.getNeighbours(currentNode)) {
+                    double newDistance = currentCost + Util.getDistance(currentNode, neighbour);
+                    double heuristic = Util.getDistance(neighbour, end);
+
+                    queue.add(new Node(neighbour, node, newDistance, heuristic));
+                }
+            }
+        }
+
+        System.out.println(routes);
+        System.out.println(distances);
+        return -1;
+    }
+    public static void main(String[] args){
+        Astar(113,24);
+    }
+}
+
+

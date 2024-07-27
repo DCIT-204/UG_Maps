@@ -1,21 +1,19 @@
+package src.NavigationAlgorithm;
 
 public class Node {
-  public String name;
-  public String description;
-  public Double latitude;
-  public Double longitude;
-  public Node parent;
-  public float distance;
   public int id;
+  public Node parent;
+  public double totalDistance;
 
-  public Node(String name, String description, Double latitude, Double longitude, float distance, Node parent, int id) {
-    this.name = name;
-    this.description = description;
-    this.latitude = latitude;
-    this.longitude = longitude;
-    this.parent = parent;
-    this.distance = distance;
+  public double costToNode;
+
+  public double costToTarget;
+
+  public Node(int id, Node parent, double costToNode, double costToTarget) {
     this.id = id;
+    this.parent = parent;
+    this.costToNode = costToNode;
+    this.costToTarget = costToTarget;
+    this.totalDistance = costToNode + costToTarget;
   }
-
 }

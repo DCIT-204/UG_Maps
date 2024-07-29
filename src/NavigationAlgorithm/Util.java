@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class Util {
-    static ArrayList<String[]> csvContents = ReadCSV.readCSV("src/NavigationAlgorithm/UG-locations.csv");
+    static ArrayList<String[]> csvContents = ReadCSV.readCSV("src/NavigationAlgorithm/UG-distances.csv");
 
 
     private static final double EARTH_RADIUS_KM = 6371.01;
@@ -28,29 +28,62 @@ public class Util {
         return EARTH_RADIUS_KM * c;
     }
 
-    public static double getDistance(int node1, int node2){
+//    public static double getDistance(int node1, int node2){
+//
+//        double lat1 = ReadCSV.getLatitude(csvContents,node1);
+//        double long1 = ReadCSV.getLongitude(csvContents,node1);
+//        double lat2 = ReadCSV.getLatitude(csvContents,node2);
+//        double long2 = ReadCSV.getLongitude(csvContents,node2);
+//
+//        return haversineDistance(lat1,long1,lat2,long2);
+//
+//        }
 
-        double lat1 = ReadCSV.getLatitude(csvContents,node1);
-        double long1 = ReadCSV.getLongitude(csvContents,node1);
-        double lat2 = ReadCSV.getLatitude(csvContents,node2);
-        double long2 = ReadCSV.getLongitude(csvContents,node2);
+//        public static List<Integer> getNeighbours(int node){
+//            List<Integer> neighbours = new ArrayList<>();
+//            for (String[] row : csvContents) {
+//                if(!Objects.equals(row[0], "ID")){
+//                    if(Integer.parseInt(row[0]) != node) {
+//                        if (Math.floor(getDistance(node, Integer.parseInt(row[0]))) < 0.61 && (getDistance(node, Integer.parseInt(row[0])) != 0.0)) {
+//                            neighbours.add(Integer.parseInt(row[0]));
+//                        }
+//                    }
+//                }
+//            }
+//        return neighbours;
+//
+//        }
 
-        return haversineDistance(lat1,long1,lat2,long2);
-
-        }
-
-        public static List<Integer> getNeighbours(int node){
-            List<Integer> neighbours = new ArrayList<>();
-            for (String[] row : csvContents) {
-                if(!Objects.equals(row[0], "ID")){
-                    if(Integer.parseInt(row[0]) != node) {
-                        if (Math.floor(getDistance(node, Integer.parseInt(row[0]))) < 0.61 && (getDistance(node, Integer.parseInt(row[0])) != 0.0)) {
-                            neighbours.add(Integer.parseInt(row[0]));
+    public static ArrayList<Integer> getNeighbours( int ID) {
+        ArrayList<Integer> neighbourList = new ArrayList<>();
+        String[] csvTitle = csvContents.get(0);
+        for (String[] row : csvContents) {
+            if (!Objects.equals(row[0], "ID")) {
+                if (Integer.parseInt(row[0]) == ID) {
+                    for (int i = 1; i < row.length; i++) {
+                        if (Double.parseDouble(row[i]) <= 650.0) {
+                            if (!(Integer.parseInt(csvTitle[i]) == ID)) {
+                                neighbourList.add(Integer.parseInt(csvTitle[i]));
+                            }
                         }
                     }
                 }
             }
-        return neighbours;
-
         }
+        return neighbourList;
+    }
+
+
+    public static Double getDistance(int source, int target){
+        String[] csvTitle = csvContents.get(0);
+        for (String[] row : csvContents) {
+            if (!Objects.equals(row[0], "ID")) {
+                if (Integer.parseInt(row[0]) == source) {
+                    return Double.parseDouble(row[target]);
+                }
+            }
+            }
+        return 0.0;
+    }
+
 }

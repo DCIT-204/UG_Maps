@@ -111,7 +111,7 @@ public class ReadCSV {
 
     public static String getNameById(ArrayList<String[]> csvContents, int id) {
         for (String[] row : csvContents) {
-            if(!Objects.equals(row[0], "ID")){
+            if(!Objects.equals(row[0], "Index")){
             if (Integer.parseInt(row[0]) == id) {
                 return row[1];
             }
@@ -129,23 +129,4 @@ public class ReadCSV {
     }
 }
 
-    public static ArrayList getNeighbours(ArrayList<String[]> csvContents, int ID) {
-        ArrayList<String> neighbourList = new ArrayList<>();
-        String[] csvTitle = csvContents.get(0);
-        for (String[] row : csvContents) {
-            if (!Objects.equals(row[0], "ID")) {
-                if (Integer.parseInt(row[0]) == ID) {
-                    for (int i = 1; i < row.length; i++) {
-                        if (Double.parseDouble(row[i]) < 600) {
-                            if (!(Integer.parseInt(csvTitle[i]) == ID)) {
-                                neighbourList.add(csvTitle[i]);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        return neighbourList;
-    }
-}
 

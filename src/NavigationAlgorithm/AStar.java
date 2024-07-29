@@ -9,6 +9,8 @@ import java.util.Set;
 public class AStar {
     static ArrayList<List<Integer>> routes = new ArrayList<>();
     static ArrayList<Double> distances = new ArrayList<>();
+
+    static ArrayList<String[]> csvContents = ReadCSV.readCSV("src/NavigationAlgorithm/UG-locations.csv");
     static double dist = 0;
     static void getSolution(Node node, int end){
         ArrayList<Integer> path = new ArrayList<>();
@@ -40,6 +42,10 @@ public class AStar {
 
                 if (currentNode == end) {
                     getSolution(node,end);
+                    if (routes.size() == 6){
+                        break;
+                    }
+
                     continue;
                 }
 
@@ -52,18 +58,23 @@ public class AStar {
                 for (int neighbour: Util.getNeighbours(currentNode)) {
                     double newDistance = currentCost + Util.getDistance(currentNode, neighbour);
                     double heuristic = Util.getDistance(neighbour, end);
-
                     queue.add(new Node(neighbour, node, newDistance, heuristic));
                 }
             }
         }
-
+        System.out.println("Shortest path: " + routes.get(0));
+        for (int id: routes.get(0)) {
+            System.out.println(ReadCSV.getNameById(csvContents,id));
+        }
+        System.out.println("Distance: " + distances.get(0));
         System.out.println(routes);
         System.out.println(distances);
         return -1;
     }
     public static void main(String[] args){
-        Astar(113,24);
+        //Astar(113,24);
+        //Astar(16, 24);
+         Astar(6, 32);
     }
 }
 

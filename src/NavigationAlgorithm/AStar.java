@@ -74,7 +74,7 @@ public class AStar {
     public static void main(String[] args){
         //Astar(113,24);
         //Astar(16, 24);
-         Astar(6, 32);
+         Astar(16, 323);
     }
 }
 

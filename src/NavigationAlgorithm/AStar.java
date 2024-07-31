@@ -5,18 +5,20 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-
 public class AStar {
     static ArrayList<List<Integer>> routes = new ArrayList<>();
     static ArrayList<Double> distances = new ArrayList<>();
+    static ArrayList<Double> times = new ArrayList<>();
 
     static ArrayList<String[]> csvContents = ReadCSV.readCSV("src/NavigationAlgorithm/UG-locations.csv");
     static double dist = 0;
-    static void getSolution(Node node, int end){
+    private static final double WALKING_SPEED_KMH = 4.8; // base speed for walking
+
+    static void getSolution(Node node, int end) {
         ArrayList<Integer> path = new ArrayList<>();
-        while(node.parent != null){
+        while (node.parent != null) {
             path.add(node.id);
-            if(node.id == end) {
+            if (node.id == end) {
                 dist = node.totalDistance;
             }
             node = node.parent;
@@ -25,6 +27,7 @@ public class AStar {
         distances.add(dist);
         routes.add(path.reversed());
     }
+
     public static int Astar(int start, int end) {
         Set<Integer> visited = new HashSet<>();
         CustomPriorityQueue queue = new CustomPriorityQueue();
@@ -41,8 +44,8 @@ public class AStar {
                 double currentCost = node.costToNode;
 
                 if (currentNode == end) {
-                    getSolution(node,end);
-                    if (routes.size() == 6){
+                    getSolution(node, end);
+                    if (routes.size() == 6) {
                         break;
                     }
 
@@ -55,7 +58,7 @@ public class AStar {
 
                 visited.add(currentNode);
 
-                for (int neighbour: Util.getNeighbours(currentNode)) {
+                for (int neighbour : Util.getNeighbours(currentNode)) {
                     double newDistance = currentCost + Util.getDistance(currentNode, neighbour);
                     double heuristic = Util.getDistance(neighbour, end);
                     queue.add(new Node(neighbour, node, newDistance, heuristic));
@@ -63,19 +66,30 @@ public class AStar {
             }
         }
         System.out.println("Shortest path: " + routes.get(0));
-        for (int id: routes.get(0)) {
-            System.out.println(ReadCSV.getNameById(csvContents,id));
+        for (int id : routes.get(0)) {
+            System.out.println(ReadCSV.getNameById(csvContents, id));
         }
         System.out.println("Distance: " + distances.get(0));
         System.out.println(routes);
         System.out.println(distances);
         return -1;
     }
-    public static void main(String[] args){
-        //Astar(113,24);
-        //Astar(16, 24);
-         Astar(16, 323);
+    public static ArrayList<Double> calculateTimes() {
+        ArrayList<Double> calculatedTimes = new ArrayList<>();
+        for (Double distanceInMeters : distances) {
+            double distanceInKilometers = distanceInMeters / 1000.0; // Convert meters to kilometers
+            double time = distanceInKilometers / WALKING_SPEED_KMH; // Calculate time in hours
+            calculatedTimes.add(time);
+        }
+        return calculatedTimes; // Return the list of times
+    }
+    public static void main(String[] args) {
+        // Astar(113,24);
+        // Astar(16, 24);
+        Astar(16, 323);
+
+
+
+
     }
 }
-
-

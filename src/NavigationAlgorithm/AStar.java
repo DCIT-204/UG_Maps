@@ -74,6 +74,7 @@ public class AStar {
         System.out.println(distances);
         return -1;
     }
+
     public static ArrayList<Double> calculateTimes() {
         ArrayList<Double> calculatedTimes = new ArrayList<>();
         for (Double distanceInMeters : distances) {
@@ -83,13 +84,11 @@ public class AStar {
         }
         return calculatedTimes; // Return the list of times
     }
+
     public static void main(String[] args) {
         // Astar(113,24);
         // Astar(16, 24);
         Astar(16, 323);
-
-
-
 
     }
 }

@@ -5,7 +5,8 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args){
         ArrayList<String[]> csvContents = ReadCSV.readCSV("src/NavigationAlgorithm/UG-locations.csv");
-        ReadCSV.makeContentsReadable(csvContents);
+        //ReadCSV.makeContentsReadable(csvContents);
+        System.out.println(csvContents.size());
         System.out.println(56);
         System.out.println(ReadCSV.getLongitude(csvContents,2));
         System.out.println(44);
@@ -18,7 +19,7 @@ public class Main {
         System.out.println(ReadCSV.getLandmark(csvContents,"Commonwealth"));
 
         System.out.println(ReadCSV.getIdByName(csvContents,"Bani hostel"));
-
+        System.out.println(ReadCSV.getAllLocations(csvContents));
         //ArrayList<String[]> csvContents1 = ReadCSV.readCSV("src/NavigationAlgorithm/UG-distances.csv");
         //System.out.println(ReadCSV.getNeighbours(csvContents1,34));
     }

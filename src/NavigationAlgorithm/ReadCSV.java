@@ -127,6 +127,16 @@ public class ReadCSV {
     public static int getCSVLength(ArrayList<String[]> csvContents){
         return csvContents.size();
     }
+
+    public static ArrayList<String> getAllLocations(ArrayList<String[]> csvContents){
+        ArrayList<String> locations = new ArrayList<>();
+        for (String[] row : csvContents) {
+            if(!Objects.equals(row[0], "Index")){
+                locations.add(row[1]);
+            }
+        }
+        return locations;
+    }
 }
 
 

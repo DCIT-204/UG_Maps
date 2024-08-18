@@ -70,8 +70,10 @@ public class AStar {
             System.out.println(ReadCSV.getNameById(csvContents, id));
         }
         System.out.println("Distance: " + distances.get(0));
-        System.out.println(routes);
-        System.out.println(distances);
+        for(int i = 0; i < routes.size(); i++){
+
+        }
+        Util.sortRoutes(routes, distances);
         return -1;
     }
 
@@ -86,9 +88,10 @@ public class AStar {
     }
 
     public static void main(String[] args) {
+        // usage below
         // Astar(113,24);
         // Astar(16, 24);
-        Astar(16, 323);
+        //Astar(323, 433);
 
     }
 }

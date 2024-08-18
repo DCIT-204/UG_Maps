@@ -28,31 +28,29 @@ public class Util {
         return EARTH_RADIUS_KM * c;
     }
 
-//    public static double getDistance(int node1, int node2){
-//
-//        double lat1 = ReadCSV.getLatitude(csvContents,node1);
-//        double long1 = ReadCSV.getLongitude(csvContents,node1);
-//        double lat2 = ReadCSV.getLatitude(csvContents,node2);
-//        double long2 = ReadCSV.getLongitude(csvContents,node2);
-//
-//        return haversineDistance(lat1,long1,lat2,long2);
-//
-//        }
 
-//        public static List<Integer> getNeighbours(int node){
-//            List<Integer> neighbours = new ArrayList<>();
-//            for (String[] row : csvContents) {
-//                if(!Objects.equals(row[0], "ID")){
-//                    if(Integer.parseInt(row[0]) != node) {
-//                        if (Math.floor(getDistance(node, Integer.parseInt(row[0]))) < 0.61 && (getDistance(node, Integer.parseInt(row[0])) != 0.0)) {
-//                            neighbours.add(Integer.parseInt(row[0]));
-//                        }
-//                    }
-//                }
-//            }
-//        return neighbours;
-//
-//        }
+    public static void swapRoutes( ArrayList<List<Integer>> routes, int indexA, int indexB) {
+        List<Integer> temp = routes.get(indexA);
+        routes.set(indexA, routes.get(indexB));
+        routes.set(indexB, temp);
+    }
+
+    public static void swapDistances(ArrayList<Double> A, int indexA, int indexB) {
+        Double temp = A.get(indexA);
+        A.set(indexA, A.get(indexB));
+        A.set(indexB, temp);
+    }
+
+    public static void sortRoutes(ArrayList<List<Integer>> A, ArrayList<Double> B) {
+        for (int i = 0; i < A.size(); i++) {
+            for (int j = i + 1; j < A.size(); j++) {
+                if (B.get(i) > B.get(j)) {
+                    swapRoutes(A, i, j);
+                    swapDistances(B, i, j);
+                }
+            }
+        }
+    }
 
     public static ArrayList<Integer> getNeighbours( int ID) {
         ArrayList<Integer> neighbourList = new ArrayList<>();
